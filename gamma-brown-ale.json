@@ -1,0 +1,165 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Gamma Brown Ale",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-08-26",
+        "batch_size": {
+          "unit": "l",
+          "value": 4
+        },
+        "style": {
+          "name": "American Brown Ale",
+          "type": "beer"
+        },
+        "original_gravity": { "unit": "sg", "value": 1.032 },
+        "notes": "Inspiration: Brännskär Brown Ale recept ifrån boken Klona Öl, ISBN 978-91-8839-741-6",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              }
+            },
+            {
+              "name": "Caramünch 1 Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 162.5
+              }
+            },
+            {
+              "name": "Crystal 150 Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            },
+            {
+              "name": "Honey",
+              "type": "honey",
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "timing": {
+                "use": "add_to_boil"
+              }
+            },
+            {
+              "name": "Cane sugar",
+              "type": "sugar",
+              "amount": {
+                "unit": "g",
+                "value": 12.5
+              },
+              "timing": {
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Challenger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6.75
+              }
+            },
+            {
+              "name": "Cascade",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 9
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 5.75
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 1.7
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 4.5
+          },
+          "boil_time": {
+            "unit": "min",
+            "value": 90
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
