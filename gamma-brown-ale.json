@@ -15,7 +15,14 @@
           "name": "American Brown Ale",
           "type": "beer"
         },
-        "original_gravity": { "unit": "sg", "value": 1.032 },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.032
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.006
+        },
         "notes": "Inspiration: Brännskär Brown Ale recept ifrån boken Klona Öl, ISBN 978-91-8839-741-6",
         "ingredients": {
           "fermentable_additions": [
