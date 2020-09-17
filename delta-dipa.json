@@ -179,51 +179,6 @@
                 "unit": "g",
                 "value": 9
               }
-            },
-            {
-              "name": "Amarillo",
-              "form": "pellet",
-              "timing": {
-                "duration": {
-                  "unit": "day",
-                  "value": 6
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 6.75
-              }
-            },
-            {
-              "name": "Citra",
-              "form": "pellet",
-              "timing": {
-                "duration": {
-                  "unit": "day",
-                  "value": 6
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 6.75
-              }
-            },
-            {
-              "name": "Simcoe",
-              "form": "pellet",
-              "timing": {
-                "duration": {
-                  "unit": "day",
-                  "value": 6
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 13.5
-              }
             }
           ],
           "culture_additions": [
