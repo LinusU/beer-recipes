@@ -29,6 +29,7 @@
             {
               "name": "Maris Otter Malt",
               "type": "grain",
+              "producer": "Crisp",
               "amount": {
                 "unit": "g",
                 "value": 1000
@@ -37,6 +38,7 @@
             {
               "name": "Caramünch 1 Malt",
               "type": "grain",
+              "producer": "Weyermann",
               "amount": {
                 "unit": "g",
                 "value": 162.5
@@ -45,6 +47,7 @@
             {
               "name": "Crystal 150 Malt",
               "type": "grain",
+              "producer": "Crisp",
               "amount": {
                 "unit": "g",
                 "value": 25
@@ -53,6 +56,7 @@
             {
               "name": "Chocolate Malt",
               "type": "grain",
+              "producer": "Crisp",
               "amount": {
                 "unit": "g",
                 "value": 25
@@ -61,6 +65,7 @@
             {
               "name": "Honey",
               "type": "honey",
+              "producer": "Munkens",
               "amount": {
                 "unit": "g",
                 "value": 25
