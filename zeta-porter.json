@@ -1,0 +1,144 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Zeta Porter",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-09-07",
+        "batch_size": {
+          "unit": "l",
+          "value": 6
+        },
+        "style": {
+          "name": "Porter",
+          "type": "beer"
+        },
+        "notes": "Inspiration: Stigbergets Promenadporter recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2250
+              }
+            },
+            {
+              "name": "Crystal 150 Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 450
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Tettnanger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 18
+              }
+            },
+            {
+              "name": "Tettnanger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 9
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 9
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 3.5
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 78.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
