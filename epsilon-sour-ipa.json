@@ -1,0 +1,220 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Epsilon Sour IPA",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-09-07",
+        "batch_size": {
+          "unit": "l",
+          "value": 10
+        },
+        "style": {
+          "name": "Sour IPA",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.031
+        },
+        "notes": "Inspiration: Surpéne recept ifrån boken Klona Öl, ISBN 978-91-8839-741-6",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 934
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 934
+              }
+            },
+            {
+              "name": "Munic 1 Malt",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 934
+              }
+            },
+            {
+              "name": "Havregryn",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 311
+              }
+            },
+            {
+              "name": "SprayMalt Extra Light",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 250
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum Germany",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 9
+              }
+            },
+            {
+              "name": "Cascade",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              }
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            },
+            {
+              "name": "Cascade",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              }
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 0
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 5.75
+              }
+            },
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 5.75
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 3.9
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 60.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75.0
+              }
+            },
+            {
+              "type": "souring wort",
+              "step_temperature": {
+                "unit": "C",
+                "value": 35.0
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 1.5
+              }
+            }
+          ]
+        },
+        "boil": {
+          "pre_boil_size": {
+            "unit": "l",
+            "value": 10
+          },
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
