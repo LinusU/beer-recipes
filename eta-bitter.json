@@ -19,6 +19,10 @@
           "unit": "sg",
           "value": 1.039
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
         "notes": "Inspiration: Nynäshamns Ångbryggeris Bedarö Bitter recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
         "ingredients": {
           "fermentable_additions": [
