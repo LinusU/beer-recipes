@@ -84,36 +84,6 @@
                 "unit": "g",
                 "value": 50
               }
-            },
-            {
-              "name": "Mosaic",
-              "form": "pellet",
-              "timing": {
-                "duration": {
-                  "unit": "day",
-                  "value": 7
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 80
-              }
-            },
-            {
-              "name": "Citra",
-              "form": "pellet",
-              "timing": {
-                "duration": {
-                  "unit": "day",
-                  "value": 7
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 80
-              }
             }
           ],
           "culture_additions": [
