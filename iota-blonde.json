@@ -1,0 +1,158 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Iota Blonde",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-10-10",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "style": {
+          "name": "Belgian Blonde",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.041
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "notes": "Inspiration: Blonde recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4500
+              }
+            },
+            {
+              "name": "Melanoidinmalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 410
+              }
+            },
+            {
+              "name": "Caster sugar",
+              "type": "sugar",
+              "amount": {
+                "unit": "g",
+                "value": 205
+              },
+              "timing": {
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum Germany",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              }
+            },
+            {
+              "name": "Styrian Golding Bobek 2019",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 13
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale T-58",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
