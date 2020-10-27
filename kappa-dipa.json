@@ -1,0 +1,189 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Kappa DIPA",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-09-05",
+        "batch_size": {
+          "unit": "l",
+          "value": 10
+        },
+        "style": {
+          "name": "Double IPA",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.051
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.013
+        },
+        "notes": "Inspiration: Mango Feber DIPA recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1600
+              }
+            },
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1400
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              }
+            },
+            {
+              "name": "Carahell",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 200
+              }
+            },
+            {
+              "name": "Torrefied Wheat",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 200
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Chinook",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              }
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              }
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 10
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 5.5
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
