@@ -1,0 +1,214 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Lambda Witbier",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-10-11",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "style": {
+          "name": "Witbier",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.036
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "notes": "Inspiration: Helsinborgs Witbier recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2670
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1665
+              }
+            },
+            {
+              "name": "Torrefied Wheat",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 665
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              }
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 11
+              }
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 22
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Coriander",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              }
+            },
+            {
+              "name": "Bitter orange peel",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 7
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Belgian Wit M21",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Mangrove Jack's",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 63.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20.0
+              }
+            },
+            {
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 70.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 70.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
