@@ -1,0 +1,156 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Mu Brown Ale",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2020-11-08",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "style": {
+          "name": "Brown Ale",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.041
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "notes": "Inspiration: SheepFucker Brown Ale recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 6000
+              }
+            },
+            {
+              "name": "Crystal 150",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 430
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 370
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Challenger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              }
+            },
+            {
+              "name": "East Kent Golding",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15.3
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13.7
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 77.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 19,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
