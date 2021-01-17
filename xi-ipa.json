@@ -15,6 +15,14 @@
           "name": "IPA",
           "type": "beer"
         },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.064
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
         "notes": "Inspiration: Nils Oscar India Ale recept ifrån boken Klona Öl, ISBN 978-91-8839-741-6",
         "ingredients": {
           "fermentable_additions": [
