@@ -19,6 +19,10 @@
           "unit": "sg",
           "value": 1.042
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
         "notes": "Inspiration: Electric Nurse Underbar Jul recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
         "ingredients": {
           "fermentable_additions": [
