@@ -1,0 +1,139 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Omicron Weissbier",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-01-31",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "style": {
+          "name": "Weissbier",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.041
+        },
+        "notes": "Inspiration: Weissbier recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3350
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3350
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Bavarian Wheat M20",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Mangrove Jack's",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 45.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15.0
+              }
+            },
+            {
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 17,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
