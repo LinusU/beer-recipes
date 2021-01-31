@@ -1,0 +1,141 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Pi Weizenbock",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-02-01",
+        "batch_size": {
+          "unit": "l",
+          "value": 20
+        },
+        "style": {
+          "name": "Weizenbock",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.050
+        },
+        "notes": "Inspiration: Dr. Malz Weizenbock recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4800
+              }
+            },
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2800
+              }
+            },
+            {
+              "name": "Melanoidinmalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 18
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.7
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale WB-06",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 75.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 19,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
