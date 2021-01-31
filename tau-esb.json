@@ -1,0 +1,188 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Tau ESB",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-02-16",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.7
+        },
+        "style": {
+          "name": "ESB",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.047
+        },
+        "notes": "Inspiration: ESB recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              }
+            },
+            {
+              "name": "Crystal 150",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 225
+              }
+            },
+            {
+              "name": "Torrefied Wheat",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 150
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Challenger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 70
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 38
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.6
+              }
+            },
+            {
+              "name": "East Kent Golding",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.0
+              }
+            },
+            {
+              "name": "Styrian Golding Bobek 2019",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 16
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.5
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 11
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 70
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
