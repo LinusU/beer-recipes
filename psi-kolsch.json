@@ -1,0 +1,151 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Psi Kölsch",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-03-01",
+        "batch_size": {
+          "unit": "l",
+          "value": 15.9
+        },
+        "style": {
+          "name": "Kölsch",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.053
+        },
+        "notes": "Inspiration: Kölsch recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5300
+              }
+            },
+            {
+              "name": "Carapils",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 700
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 70
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.2
+              }
+            },
+            {
+              "name": "Tettnanger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 60
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale K-97",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 70
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
