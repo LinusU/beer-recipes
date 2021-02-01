@@ -1,0 +1,151 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Chi Cream Ale",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-02-27",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.0
+        },
+        "style": {
+          "name": "Cream Ale",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.050
+        },
+        "notes": "Inspiration: Cream Ale recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              }
+            },
+            {
+              "name": "Torrefied Maize",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Centennial",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 70
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 22
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.5
+              }
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 38
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.4
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15.5
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 11
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 70
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
