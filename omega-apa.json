@@ -1,0 +1,236 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Omega APA",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-03-02",
+        "batch_size": {
+          "unit": "l",
+          "value": 16.2
+        },
+        "style": {
+          "name": "APA",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.058
+        },
+        "notes": "Inspiration: Sierra Nevada Pale Ale Clone recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/28546/sierra-nevada-pale-ale-clone",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Male",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5500
+              }
+            },
+            {
+              "name": "Crystal 150 Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.7
+              }
+            },
+            {
+              "name": "Perle",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.6
+              }
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.7
+              }
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.7
+              }
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.7
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 75.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10.0
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

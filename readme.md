@@ -27,3 +27,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [**φ** Roggenbier](phi-roggenbier.json)
 - [**χ** Cream Ale](chi-cream-ale.json)
 - [**ψ** Kölsch](psi-kolsch.json)
+- [**ω** APA](omega-apa.json)
