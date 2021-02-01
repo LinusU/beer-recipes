@@ -24,3 +24,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [**σ** Beière de Garde](sigma-biere-de-garde.json)
 - [**τ** ESB](tau-esb.json)
 - [**υ** APA](upsilon-apa.json)
+- [**φ** Roggenbier](phi-roggenbier.json)

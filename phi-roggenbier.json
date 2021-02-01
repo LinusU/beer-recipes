@@ -1,0 +1,188 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Phi Roggenbier",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-02-17",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.0
+        },
+        "style": {
+          "name": "Roggenbier",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.040
+        },
+        "notes": "Inspiration: Roggenbier recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Rye Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2900
+              }
+            },
+            {
+              "name": "Munic 1 Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1600
+              }
+            },
+            {
+              "name": "Carawheat",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              }
+            },
+            {
+              "name": "Carafa Special 3",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 150
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Hersbrucker",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 75
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 31
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.7
+              }
+            },
+            {
+              "name": "Hersbrucker",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.7
+              }
+            },
+            {
+              "name": "Tettnanger",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale WB-06",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 11
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76.0
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 75
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 24,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
