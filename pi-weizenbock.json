@@ -19,6 +19,10 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
         "notes": "Inspiration: Dr. Malz Weizenbock recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
         "ingredients": {
           "fermentable_additions": [
