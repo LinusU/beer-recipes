@@ -19,6 +19,10 @@
           "unit": "sg",
           "value": 1.041
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
         "notes": "Inspiration: Weissbier recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
         "ingredients": {
           "fermentable_additions": [
