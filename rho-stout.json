@@ -23,6 +23,13 @@
           "unit": "sg",
           "value": 1.014
         },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.3
+          }
+        },
         "notes": "Inspiration: Svart som själen recept ifrån boken Brygga stiltypisk öl, ISBN 978-91-88397-22-5",
         "ingredients": {
           "fermentable_additions": [
