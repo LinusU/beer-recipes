@@ -19,6 +19,17 @@
           "unit": "sg",
           "value": 1.051
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.6
+          }
+        },
         "notes": "Inspiration: Bière de Garde recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
         "ingredients": {
           "fermentable_additions": [
