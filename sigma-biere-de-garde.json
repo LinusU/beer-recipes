@@ -9,7 +9,7 @@
         "created": "2021-02-15",
         "batch_size": {
           "unit": "l",
-          "value": 19.3
+          "value": 18.4
         },
         "style": {
           "name": "Bière de Garde",
@@ -27,7 +27,7 @@
           "name": "Cornelius keg",
           "packaged_volume": {
             "unit": "l",
-            "value": 17.6
+            "value": 17.4
           }
         },
         "notes": "Inspiration: Bière de Garde recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",

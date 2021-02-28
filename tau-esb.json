@@ -9,7 +9,7 @@
         "created": "2021-02-16",
         "batch_size": {
           "unit": "l",
-          "value": 17.7
+          "value": 16.9
         },
         "style": {
           "name": "ESB",
@@ -27,7 +27,7 @@
           "name": "Cornelius keg",
           "packaged_volume": {
             "unit": "l",
-            "value": 16.3
+            "value": 16.1
           }
         },
         "notes": "Inspiration: ESB recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
