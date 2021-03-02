@@ -29,3 +29,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [**ψ** Kölsch](psi-kolsch.json)
 - [**ω** APA](omega-apa.json)
 - [Mosaic SMaSH](mosaic-smash.json)
+- [Svartån](svartan.json)
