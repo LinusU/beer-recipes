@@ -38,3 +38,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Chocoweizen](chocoweizen.json)
 - [Orange Robot](orange-robot.json)
 - [Vitsippan](vitsippan.json)
+- [Sun Never Sets](sun-never-sets.json)
