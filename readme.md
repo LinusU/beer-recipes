@@ -30,3 +30,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [**ω** APA](omega-apa.json)
 - [Mosaic SMaSH](mosaic-smash.json)
 - [Svartån](svartan.json)
+- [Dix Pour Cent](dix-pour-cent.json)

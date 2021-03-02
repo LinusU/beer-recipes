@@ -1,0 +1,238 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Dix Pour Cent",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-03-16",
+        "batch_size": {
+          "unit": "l",
+          "value": 16.9
+        },
+        "style": {
+          "name": "Imperial Stout",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.094
+        },
+        "notes": "Inspiration: Omnipollo Imperial Stout Brygd recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/283729/omnipollo-imperial-stout-brygd",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              }
+            },
+            {
+              "name": "Beech Smoked Barley Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 750
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 750
+              }
+            },
+            {
+              "name": "Caramünch 1",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 650
+              }
+            },
+            {
+              "name": "Roasted Barley",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              }
+            },
+            {
+              "name": "Flaked Oats",
+              "type": "grain",
+              "producer": "AXA",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              }
+            },
+            {
+              "name": "Bread Syrup",
+              "type": "sugar",
+              "producer": "Dansukker",
+              "amount": {
+                "unit": "g",
+                "value": 2250
+              },
+              "timing": {
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Columbus",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 120
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 45
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 15.0
+              },
+              "year": "2019"
+            },
+            {
+              "name": "Columbus",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 15.0
+              },
+              "year": "2019"
+            },
+            {
+              "name": "Styrian Golding Bobek",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.5
+              },
+              "year": "2019"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 69
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 120
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
