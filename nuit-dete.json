@@ -1,0 +1,243 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Nuit d'été",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-06-04",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.8
+        },
+        "style": {
+          "name": "Saison",
+          "category_number": 25,
+          "style_letter": "B",
+          "style_guide": "BJCP 2015",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.055
+        },
+        "notes": "Inspiration: Saison recept ifrån The Homebrew Challenge https://www.youtube.com/watch?v=QB0CnXOf9U4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4200
+              }
+            },
+            {
+              "name": "Munic 1 Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1200
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              }
+            },
+            {
+              "name": "Honug från flera sorters blommor",
+              "type": "honey",
+              "producer": "ICA",
+              "origin": "Ukraine",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.2
+              },
+              "origin": "Czech",
+              "year": "2019"
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 38
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.1
+              },
+              "origin": "Czech",
+              "year": "2020"
+            },
+            {
+              "name": "Styrian Golding Bobek",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.5
+              },
+              "origin": "Slovenia",
+              "year": "2019"
+            },
+            {
+              "name": "Styrian Golding Bobek",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.8
+              },
+              "origin": "Slovenia",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale BE-134",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 28,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
