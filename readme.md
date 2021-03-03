@@ -31,3 +31,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Mosaic SMaSH](mosaic-smash.json)
 - [Svartån](svartan.json)
 - [Dix Pour Cent](dix-pour-cent.json)
+- [Lagom Pale Ale](lagom-pale-ale.json)
