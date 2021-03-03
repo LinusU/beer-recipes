@@ -1,0 +1,183 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Vitölet",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-06-05",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.9
+        },
+        "style": {
+          "name": "Witbier",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.050
+        },
+        "notes": "Inspiration: Witbier recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3000
+              }
+            },
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3000
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.1
+              },
+              "origin": "Czech",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Ground coriander seed",
+              "type": "spice",
+              "producer": "ICA",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            },
+            {
+              "name": "Bitter orange peel",
+              "type": "spice",
+              "producer": "Santa Maria",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Belgian Wit M21",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Mangrove Jack's",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 22,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
