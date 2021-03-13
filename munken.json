@@ -1,0 +1,181 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Munken",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-04-17",
+        "batch_size": {
+          "unit": "l",
+          "value": 16.5
+        },
+        "style": {
+          "name": "Trappist Ale",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.057
+        },
+        "notes": "Inspiration: Abbey Beer recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5200
+              }
+            },
+            {
+              "name": "Vienna Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1200
+              }
+            },
+            {
+              "name": "Biscuit Malt",
+              "type": "grain",
+              "producer": "Dingemans",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Perle",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 75
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 18
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.6
+              },
+              "origin": "Germany",
+              "year": "2019"
+            },
+            {
+              "name": "Styrian Golding Bobek",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 24
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.5
+              },
+              "origin": "Slovenia",
+              "year": "2019"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale BE-256",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 75
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 22,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
