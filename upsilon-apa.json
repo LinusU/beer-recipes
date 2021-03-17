@@ -116,7 +116,7 @@
               "timing": {
                 "duration": {
                   "unit": "day",
-                  "value": 7
+                  "value": 18
                 },
                 "use": "add_to_package"
               },
