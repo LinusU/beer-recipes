@@ -34,3 +34,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Lagom Pale Ale](lagom-pale-ale.json)
 - [Munken](munken.json)
 - [Ella](ella.json)
+- [Toucan](toucan.json)

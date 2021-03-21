@@ -1,0 +1,211 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Toucan",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-04-18",
+        "batch_size": {
+          "unit": "l",
+          "value": 15.6
+        },
+        "style": {
+          "name": "Irish Stout",
+          "category_number": 15,
+          "style_letter": "B",
+          "style_guide": "BJCP 2015",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.054
+        },
+        "notes": "Inspiration: Guinness recept ifrån boken Brygg öl, ISBN 978-91-27-13498-0",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3550
+              }
+            },
+            {
+              "name": "Roasted Barley",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 850
+              }
+            },
+            {
+              "name": "Flaked Barley",
+              "type": "grain",
+              "producer": "Stora Hällsta",
+              "amount": {
+                "unit": "g",
+                "value": 250
+              }
+            },
+            {
+              "name": "Flaked Oats",
+              "type": "grain",
+              "producer": "AXA",
+              "amount": {
+                "unit": "g",
+                "value": 125
+              }
+            },
+            {
+              "name": "Crystal 150",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 125
+              }
+            },
+            {
+              "name": "Acidulated Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Target",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.2
+              },
+              "origin": "England",
+              "year": "2020"
+            },
+            {
+              "name": "Fuggle",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 17
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.4
+              },
+              "origin": "England",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65.5
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 11
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
