@@ -1,0 +1,264 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Lingonsuris",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-00-00",
+        "batch_size": {
+          "unit": "l",
+          "value": 15
+        },
+        "style": {
+          "name": "Berliner Weisse",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.000
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.000
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 0.0
+          }
+        },
+        "notes": "Inspiration: A passion for gingers recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2000
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 2000
+              }
+            },
+            {
+              "name": "Carahell",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 40
+              },
+              "timing": {
+                "duration": {
+                  "unit": "hr",
+                  "value": 48
+                },
+                "use": "add_to_boil",
+                "step": 2
+              }
+            },
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "timing": {
+                "duration": {
+                  "unit": "hr",
+                  "value": 48
+                },
+                "use": "add_to_boil",
+                "step": 2
+              }
+            },
+            {
+              "name": "Lingonberries",
+              "type": "fruit",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 250
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Lactic Acid",
+              "type": "water agent",
+              "amount": {
+                "unit": "ml",
+                "value": 20
+              },
+              "timing": {
+                "use": "add_to_mash"
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale K-97",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 14
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 6
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 65
+          },
+          "boil_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 5
+              }
+            },
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 50
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 50
+              },
+              "step_time": {
+                "unit": "hr",
+                "value": 48
+              }
+            },
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 100
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            }
+          ]
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
