@@ -1,0 +1,229 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Pacific Brown",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-06-06",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.5
+        },
+        "style": {
+          "name": "American Brown Ale",
+          "category_number": 19,
+          "style_letter": "C",
+          "style_guide": "BJCP 2015",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.051
+        },
+        "notes": "Inspiration: My Big Samoan Crush recept ifrån boken Brygg öl, ISBN 978-91-27-13498-0",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5160
+              }
+            },
+            {
+              "name": "Caramünch 1",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 420
+              }
+            },
+            {
+              "name": "Special B",
+              "type": "grain",
+              "producer": "Dingemans",
+              "amount": {
+                "unit": "g",
+                "value": 210
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 210
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Pacifica",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 60
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.9
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Pacifica",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.9
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Pacifica",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.9
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Pacifica",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 45
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
