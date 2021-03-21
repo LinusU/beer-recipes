@@ -1,0 +1,295 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Hazy Lush",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-06-05",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.4
+        },
+        "style": {
+          "name": "Specialty IPA: New England IPA",
+          "category_number": 21,
+          "style_letter": "B",
+          "style_guide": "BJCP 2015",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.055
+        },
+        "notes": "Inspiration: Boss Tweed Clone recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/706797/boss-tweed-clone-ne-dipa-",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4670
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 930
+              }
+            },
+            {
+              "name": "Flaked Oats",
+              "type": "grain",
+              "producer": "AXA",
+              "amount": {
+                "unit": "g",
+                "value": 930
+              }
+            },
+            {
+              "name": "Vienna Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 470
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.9
+              },
+              "origin": "Germany",
+              "year": "2020"
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.8
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              }
+            },
+            {
+              "name": "Citra",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              }
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              }
+            },
+            {
+              "name": "Azacca",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-33",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
