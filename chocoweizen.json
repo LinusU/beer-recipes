@@ -1,0 +1,212 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Chocoweizen",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-04-19",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.1
+        },
+        "style": {
+          "name": "Weizenbock",
+          "category_number": 10,
+          "style_letter": "C",
+          "style_guide": "BJCP 2015",
+          "type": "beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.056
+        },
+        "notes": "Inspiration: Hefenator recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4000
+              }
+            },
+            {
+              "name": "Munic 1 Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1600
+              }
+            },
+            {
+              "name": "Pilsnermalt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1100
+              }
+            },
+            {
+              "name": "Munic 2 Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 800
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              }
+            },
+            {
+              "name": "Caramünch 1",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 200
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 40
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "origin": "Germany",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Bavarian Wheat M20",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Mangrove Jack's",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 44
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 25
+              }
+            },
+            {
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 52
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            },
+            {
+              "type": "temperature",
+              "step_temperature": {
+                "unit": "C",
+                "value": 68
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 78
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
