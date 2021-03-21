@@ -37,3 +37,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Toucan](toucan.json)
 - [Chocoweizen](chocoweizen.json)
 - [Orange Robot](orange-robot.json)
+- [Vitsippan](vitsippan.json)
