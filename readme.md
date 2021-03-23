@@ -40,3 +40,4 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Vitsippan](vitsippan.json)
 - [Sun Never Sets](sun-never-sets.json)
 - [Nuit d'été](nuit-dete.json)
+- [Björnen](bjornen.json)
