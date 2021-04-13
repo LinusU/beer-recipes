@@ -19,6 +19,17 @@
           "unit": "sg",
           "value": 1.051
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 15.2
+          }
+        },
         "notes": "Inspiration: https://www.seriouseats.com/recipes/2013/02/single-malt-single-hop-ipa-how-to-use-mosaic-hops-homebrewing-beer-easy-india-pale-ale-recipe.html",
         "ingredients": {
           "fermentable_additions": [
@@ -102,7 +113,7 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 50
+                "value": 45
               },
               "alpha_acid": {
                 "unit": "%",
