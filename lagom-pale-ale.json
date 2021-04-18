@@ -19,6 +19,17 @@
           "unit": "sg",
           "value": 1.059
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.7
+          }
+        },
         "notes": "Inspiration: Pretty pale ale recept ifrån boken Klona Öl, ISBN 978-91-88397-55-3",
         "ingredients": {
           "fermentable_additions": [
