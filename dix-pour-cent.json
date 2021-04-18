@@ -19,6 +19,17 @@
           "unit": "sg",
           "value": 1.094
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.024
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 15.7
+          }
+        },
         "notes": "Inspiration: Omnipollo Imperial Stout Brygd recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/283729/omnipollo-imperial-stout-brygd",
         "ingredients": {
           "fermentable_additions": [
