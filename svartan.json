@@ -19,6 +19,17 @@
           "unit": "sg",
           "value": 1.053
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 13.9
+          }
+        },
         "notes": "Inspiration: Finn Brown Ale recept ifrån boken Klona Öl, ISBN 978-91-88397-55-3",
         "ingredients": {
           "fermentable_additions": [
