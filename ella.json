@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 13.9
+          }
+        },
         "notes": "Inspiration: Leon recept ifrån boken Brygg öl, ISBN 978-91-27-13498-0",
         "ingredients": {
           "fermentable_additions": [
