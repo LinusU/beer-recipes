@@ -76,7 +76,7 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 240
+                "value": 250
               }
             },
             {
@@ -95,7 +95,7 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 480
+                "value": 500
               }
             }
           ],
@@ -138,7 +138,13 @@
               "amount": {
                 "unit": "g",
                 "value": 60
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.7
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -156,8 +162,39 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 60
-              }
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.8
+              },
+              "origin": "USA",
+              "year": "2019"
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 40
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [
