@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.060
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.018
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.7
+          }
+        },
         "notes": "Inspiration: Red Robot DIPA recept ifrån boken Klona Öl, ISBN 978-91-88397-55-3",
         "ingredients": {
           "fermentable_additions": [
