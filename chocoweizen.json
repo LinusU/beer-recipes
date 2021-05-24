@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.056
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.021
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.4
+          }
+        },
         "notes": "Inspiration: Hefenator recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
         "ingredients": {
           "fermentable_additions": [
