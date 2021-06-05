@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.7
+          }
+        },
         "notes": "Inspiration: Avg. Perfect Northeast IPA (NEIPA) recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/363082/avg-perfect-northeast-ipa-neipa-",
         "ingredients": {
           "fermentable_additions": [
@@ -181,7 +192,13 @@
               "amount": {
                 "unit": "g",
                 "value": 40
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.8
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Galaxy",
@@ -196,7 +213,13 @@
               "amount": {
                 "unit": "g",
                 "value": 70
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 16.6
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Mosaic",
@@ -211,7 +234,13 @@
               "amount": {
                 "unit": "g",
                 "value": 70
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [
