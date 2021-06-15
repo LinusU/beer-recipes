@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.051
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.006
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.8
+          }
+        },
         "notes": "Inspiration: Sorbus Hallon recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
         "ingredients": {
           "fermentable_additions": [
