@@ -136,6 +136,21 @@
                 "unit": "ml",
                 "value": 1
               }
+            },
+            {
+              "name": "Gelatin Sheet",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 10
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              }
             }
           ],
           "culture_additions": [
