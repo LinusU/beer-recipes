@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.051
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.7
+          }
+        },
         "notes": "Inspiration: My Big Samoan Crush recept ifrån boken Brygg öl, ISBN 978-91-27-13498-0",
         "ingredients": {
           "fermentable_additions": [
@@ -138,8 +149,14 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 45
-              }
+                "value": 52.7
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.9
+              },
+              "origin": "New Zealand",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [
