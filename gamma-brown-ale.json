@@ -27,7 +27,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Maris Otter Malt",
+              "name": "Maris Otter Ale Malt",
               "type": "grain",
               "producer": "Crisp",
               "amount": {
@@ -36,7 +36,7 @@
               }
             },
             {
-              "name": "Caramünch 1 Malt",
+              "name": "Caramünch 1",
               "type": "grain",
               "producer": "Weyermann",
               "amount": {
@@ -45,7 +45,7 @@
               }
             },
             {
-              "name": "Crystal 150 Malt",
+              "name": "Crystal 150",
               "type": "grain",
               "producer": "Crisp",
               "amount": {
@@ -63,7 +63,7 @@
               }
             },
             {
-              "name": "Honey",
+              "name": "Munkens Honung",
               "type": "honey",
               "producer": "Munkens",
               "amount": {
@@ -77,6 +77,7 @@
             {
               "name": "Cane sugar",
               "type": "sugar",
+              "producer": "Dansukker",
               "amount": {
                 "unit": "g",
                 "value": 12.5

@@ -23,7 +23,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Pilsnermalt",
+              "name": "Pilsner Malt",
               "type": "grain",
               "amount": {
                 "unit": "g",
@@ -76,7 +76,7 @@
           ],
           "hop_additions": [
             {
-              "name": "Magnum Germany",
+              "name": "Magnum",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -88,7 +88,8 @@
               "amount": {
                 "unit": "g",
                 "value": 10
-              }
+              },
+              "origin": "Germany"
             },
             {
               "name": "Amarillo",

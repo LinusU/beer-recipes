@@ -23,7 +23,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Pilsnermalt",
+              "name": "Pilsner Malt",
               "type": "grain",
               "amount": {
                 "unit": "g",
@@ -47,7 +47,7 @@
               }
             },
             {
-              "name": "Havregryn",
+              "name": "Flaked Oats",
               "type": "grain",
               "amount": {
                 "unit": "g",
@@ -65,7 +65,7 @@
           ],
           "hop_additions": [
             {
-              "name": "Magnum Germany",
+              "name": "Magnum",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -77,7 +77,8 @@
               "amount": {
                 "unit": "g",
                 "value": 9
-              }
+              },
+              "origin": "Germany"
             },
             {
               "name": "Cascade",

@@ -26,7 +26,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Pilsnermalt",
+              "name": "Pilsner Malt",
               "type": "grain",
               "producer": "Weyermann",
               "amount": {
@@ -53,7 +53,7 @@
               }
             },
             {
-              "name": "Honug från flera sorters blommor",
+              "name": "Honung från flera sorters blommor",
               "type": "honey",
               "producer": "ICA",
               "origin": "Ukraine",

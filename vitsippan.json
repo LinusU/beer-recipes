@@ -37,7 +37,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Pilsnermalt",
+              "name": "Pilsner Malt",
               "type": "grain",
               "producer": "Weyermann",
               "amount": {
@@ -46,7 +46,7 @@
               }
             },
             {
-              "name": "Wheat malt",
+              "name": "Wheat Malt",
               "type": "grain",
               "producer": "Weyermann",
               "amount": {
@@ -66,7 +66,7 @@
             {
               "name": "Caster sugar",
               "type": "sugar",
-              "producer": "Dan Sukker",
+              "producer": "Dansukker",
               "amount": {
                 "unit": "g",
                 "value": 100

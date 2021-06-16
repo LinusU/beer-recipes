@@ -110,7 +110,7 @@
               }
             },
             {
-              "name": "Styrian Golding Bobek 2019",
+              "name": "Styrian Golding Bobek",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -126,7 +126,8 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 3.5
-              }
+              },
+              "year": "2019"
             }
           ],
           "culture_additions": [

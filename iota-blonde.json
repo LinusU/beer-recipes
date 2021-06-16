@@ -58,7 +58,7 @@
           ],
           "hop_additions": [
             {
-              "name": "Magnum Germany",
+              "name": "Magnum",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -70,10 +70,11 @@
               "amount": {
                 "unit": "g",
                 "value": 8
-              }
+              },
+              "origin": "Germany"
             },
             {
-              "name": "Styrian Golding Bobek 2019",
+              "name": "Styrian Golding Bobek",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -85,7 +86,8 @@
               "amount": {
                 "unit": "g",
                 "value": 13
-              }
+              },
+              "year": "2019"
             }
           ],
           "culture_additions": [

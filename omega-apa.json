@@ -34,7 +34,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Pale Ale Male",
+              "name": "Pale Ale Malt",
               "type": "grain",
               "producer": "Weyermann",
               "amount": {
@@ -43,7 +43,7 @@
               }
             },
             {
-              "name": "Crystal 150 Malt",
+              "name": "Crystal 150",
               "type": "grain",
               "producer": "Crisp",
               "amount": {
