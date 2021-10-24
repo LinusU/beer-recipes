@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.3
+          }
+        },
         "notes": "Inspiration: Gamma Ray recept ifrån okänd bok",
         "ingredients": {
           "fermentable_additions": [
@@ -142,58 +153,64 @@
               "name": "Citra",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
                   "unit": "day",
-                  "value": 7
+                  "value": 30
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
-                "value": 50
-              }
+                "value": 42
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.8
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Amarillo",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
                   "unit": "day",
-                  "value": 7
+                  "value": 30
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
-                "value": 40
-              }
+                "value": 49
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.7
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Cascade",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
                   "unit": "day",
-                  "value": 7
+                  "value": 30
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
-                "value": 16
-              }
+                "value": 17
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [
