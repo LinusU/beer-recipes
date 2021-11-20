@@ -44,3 +44,5 @@ This is a collection of my beer recipes in the [beerjson format](https://github.
 - [Hazy Lush](hazy-lush.json)
 - [Vitölet](vitolet.json)
 - [Pacific Brown](pacific-brown.json)
+- [Cosmic Ray](cosmic-ray.json)
+- [Reservoir Hops](reservoir-hops.json)
