@@ -108,7 +108,7 @@
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 5.0
+                "value": 5
               },
               "origin": "England",
               "year": "2019"
@@ -158,11 +158,11 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 65.0
+                "value": 65
               },
               "step_time": {
                 "unit": "min",
-                "value": 60.0
+                "value": 60
               }
             },
             {
@@ -173,11 +173,11 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 76.0
+                "value": 76
               },
               "step_time": {
                 "unit": "min",
-                "value": 10.0
+                "value": 10
               }
             }
           ]

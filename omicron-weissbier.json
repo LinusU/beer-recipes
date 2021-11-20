@@ -98,22 +98,22 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 45.0
+                "value": 45
               },
               "step_time": {
                 "unit": "min",
-                "value": 15.0
+                "value": 15
               }
             },
             {
               "type": "temperature",
               "step_temperature": {
                 "unit": "C",
-                "value": 67.0
+                "value": 67
               },
               "step_time": {
                 "unit": "min",
-                "value": 60.0
+                "value": 60
               }
             },
             {
@@ -124,11 +124,11 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 76.0
+                "value": 76
               },
               "step_time": {
                 "unit": "min",
-                "value": 10.0
+                "value": 10
               }
             }
           ]

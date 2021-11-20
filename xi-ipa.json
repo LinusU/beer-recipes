@@ -181,33 +181,33 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 63.0
+                "value": 63
               },
               "step_time": {
                 "unit": "min",
-                "value": 10.0
+                "value": 10
               }
             },
             {
               "type": "temperature",
               "step_temperature": {
                 "unit": "C",
-                "value": 66.0
+                "value": 66
               },
               "step_time": {
                 "unit": "min",
-                "value": 35.0
+                "value": 35
               }
             },
             {
               "type": "temperature",
               "step_temperature": {
                 "unit": "C",
-                "value": 72.0
+                "value": 72
               },
               "step_time": {
                 "unit": "min",
-                "value": 20.0
+                "value": 20
               }
             },
             {
@@ -218,11 +218,11 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 78.0
+                "value": 78
               },
               "step_time": {
                 "unit": "min",
-                "value": 10.0
+                "value": 10
               }
             }
           ]

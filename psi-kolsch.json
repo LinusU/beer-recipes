@@ -27,7 +27,7 @@
           "name": "Cornelius keg",
           "packaged_volume": {
             "unit": "l",
-            "value": 15.0
+            "value": 15
           }
         },
         "notes": "Inspiration: Kölsch recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
@@ -119,7 +119,7 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 65.0
+                "value": 65
               },
               "step_time": {
                 "unit": "min",
@@ -134,7 +134,7 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 76.0
+                "value": 76
               },
               "step_time": {
                 "unit": "min",

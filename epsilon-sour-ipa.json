@@ -203,18 +203,18 @@
               },
               "step_temperature": {
                 "unit": "C",
-                "value": 60.0
+                "value": 60
               },
               "step_time": {
                 "unit": "min",
-                "value": 75.0
+                "value": 75
               }
             },
             {
               "type": "souring wort",
               "step_temperature": {
                 "unit": "C",
-                "value": 35.0
+                "value": 35
               },
               "step_time": {
                 "unit": "day",
