@@ -70,7 +70,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 3.2
-              }
+              },
+              "origin": "Czech",
+              "year": "2019"
             },
             {
               "name": "Tettnanger",
@@ -89,7 +91,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 3.7
-              }
+              },
+              "origin": "Germany",
+              "year": "2019"
             }
           ],
           "culture_additions": [

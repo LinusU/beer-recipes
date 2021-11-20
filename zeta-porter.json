@@ -60,7 +60,13 @@
               "amount": {
                 "unit": "g",
                 "value": 18
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Tettnanger",
@@ -75,7 +81,13 @@
               "amount": {
                 "unit": "g",
                 "value": 9
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              },
+              "origin": "Germany",
+              "year": "2019"
             }
           ],
           "culture_additions": [

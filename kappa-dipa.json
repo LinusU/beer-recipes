@@ -86,7 +86,13 @@
               "amount": {
                 "unit": "g",
                 "value": 8
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.2
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -101,7 +107,13 @@
               "amount": {
                 "unit": "g",
                 "value": 5
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.8
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Amarillo",
@@ -116,7 +128,13 @@
               "amount": {
                 "unit": "g",
                 "value": 20
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.4
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

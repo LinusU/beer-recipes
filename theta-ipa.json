@@ -68,7 +68,13 @@
               "amount": {
                 "unit": "g",
                 "value": 25
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.6
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Simcoe",
@@ -83,7 +89,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.3
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

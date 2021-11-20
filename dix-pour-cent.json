@@ -119,6 +119,7 @@
                 "unit": "%",
                 "value": 15.0
               },
+              "origin": "USA",
               "year": "2019"
             },
             {
@@ -139,6 +140,7 @@
                 "unit": "%",
                 "value": 15.0
               },
+              "origin": "USA",
               "year": "2019"
             },
             {
@@ -159,6 +161,7 @@
                 "unit": "%",
                 "value": 3.5
               },
+              "origin": "Slovenia",
               "year": "2019"
             }
           ],

@@ -68,7 +68,13 @@
               "amount": {
                 "unit": "g",
                 "value": 20
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.5
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Columbus",
@@ -83,7 +89,13 @@
               "amount": {
                 "unit": "g",
                 "value": 10
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 15.0
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Centennial",
@@ -98,7 +110,13 @@
               "amount": {
                 "unit": "g",
                 "value": 30
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.5
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

@@ -70,7 +70,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 10.7
-              }
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Perle",
@@ -89,7 +91,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 6.6
-              }
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Amarillo",
@@ -108,7 +112,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 8.7
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Amarillo",
@@ -127,7 +133,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 8.7
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Amarillo",
@@ -146,7 +154,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 8.7
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [

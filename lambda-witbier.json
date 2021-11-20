@@ -68,7 +68,13 @@
               "amount": {
                 "unit": "g",
                 "value": 5
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.2
+              },
+              "origin": "Czech",
+              "year": "2019"
             },
             {
               "name": "Saaz",
@@ -83,7 +89,13 @@
               "amount": {
                 "unit": "g",
                 "value": 11
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.2
+              },
+              "origin": "Czech",
+              "year": "2019"
             },
             {
               "name": "Saaz",
@@ -98,7 +110,13 @@
               "amount": {
                 "unit": "g",
                 "value": 22
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.2
+              },
+              "origin": "Czech",
+              "year": "2019"
             }
           ],
           "miscellaneous_additions": [

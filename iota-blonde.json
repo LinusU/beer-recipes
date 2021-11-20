@@ -71,7 +71,12 @@
                 "unit": "g",
                 "value": 8
               },
-              "origin": "Germany"
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.7
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Styrian Golding Bobek",
@@ -87,6 +92,11 @@
                 "unit": "g",
                 "value": 13
               },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.5
+              },
+              "origin": "Slovenia",
               "year": "2019"
             }
           ],

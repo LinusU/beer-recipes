@@ -78,7 +78,12 @@
                 "unit": "g",
                 "value": 9
               },
-              "origin": "Germany"
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.7
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Cascade",
@@ -93,7 +98,13 @@
               "amount": {
                 "unit": "g",
                 "value": 20
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.7
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Simcoe",
@@ -108,7 +119,13 @@
               "amount": {
                 "unit": "g",
                 "value": 25
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.3
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Cascade",
@@ -123,7 +140,13 @@
               "amount": {
                 "unit": "g",
                 "value": 20
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.7
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Simcoe",
@@ -138,7 +161,13 @@
               "amount": {
                 "unit": "g",
                 "value": 30
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.3
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

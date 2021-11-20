@@ -98,6 +98,7 @@
                 "unit": "%",
                 "value": 10.7
               },
+              "origin": "Germany",
               "year": "2019"
             },
             {
@@ -118,6 +119,7 @@
                 "unit": "%",
                 "value": 11.9
               },
+              "origin": "Germany",
               "year": "2020"
             },
             {
@@ -138,6 +140,7 @@
                 "unit": "%",
                 "value": 11.2
               },
+              "origin": "USA",
               "year": "2019"
             },
             {
@@ -158,6 +161,7 @@
                 "unit": "%",
                 "value": 6.7
               },
+              "origin": "USA",
               "year": "2019"
             },
             {
@@ -178,6 +182,7 @@
                 "unit": "%",
                 "value": 5.5
               },
+              "origin": "USA",
               "year": "2020"
             }
           ],

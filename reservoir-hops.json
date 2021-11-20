@@ -145,7 +145,13 @@
               "amount": {
                 "unit": "g",
                 "value": 60
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.7
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Chinook",
@@ -164,7 +170,13 @@
               "amount": {
                 "unit": "g",
                 "value": 60
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.2
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -183,7 +195,13 @@
               "amount": {
                 "unit": "g",
                 "value": 60
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [

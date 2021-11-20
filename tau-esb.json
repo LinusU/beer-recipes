@@ -88,7 +88,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 7.6
-              }
+              },
+              "origin": "England",
+              "year": "2019"
             },
             {
               "name": "East Kent Golding",
@@ -107,7 +109,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 5.0
-              }
+              },
+              "origin": "England",
+              "year": "2019"
             },
             {
               "name": "Styrian Golding Bobek",
@@ -127,6 +131,7 @@
                 "unit": "%",
                 "value": 3.5
               },
+              "origin": "Slovenia",
               "year": "2019"
             }
           ],

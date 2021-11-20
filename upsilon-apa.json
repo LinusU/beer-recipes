@@ -70,7 +70,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.9
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Azacca",
@@ -89,7 +91,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.9
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Azacca",
@@ -108,7 +112,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.9
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Azacca",
@@ -127,7 +133,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.9
-              }
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "culture_additions": [

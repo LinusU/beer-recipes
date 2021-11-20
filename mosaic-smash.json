@@ -61,7 +61,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.8
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -80,7 +82,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.8
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -99,7 +103,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.8
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Mosaic",
@@ -118,7 +124,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 11.8
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "miscellaneous_additions": [

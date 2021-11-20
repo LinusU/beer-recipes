@@ -70,7 +70,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 9.5
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Amarillo",
@@ -89,7 +91,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 8.4
-              }
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

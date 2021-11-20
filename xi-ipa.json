@@ -86,7 +86,13 @@
               "amount": {
                 "unit": "g",
                 "value": 10
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.7
+              },
+              "origin": "Germany",
+              "year": "2019"
             },
             {
               "name": "Citra",
@@ -101,7 +107,13 @@
               "amount": {
                 "unit": "g",
                 "value": 8
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.7
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Amarillo",
@@ -116,7 +128,13 @@
               "amount": {
                 "unit": "g",
                 "value": 13
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.4
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Amarillo",
@@ -131,7 +149,13 @@
               "amount": {
                 "unit": "g",
                 "value": 13
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.4
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

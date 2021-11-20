@@ -68,7 +68,13 @@
               "amount": {
                 "unit": "g",
                 "value": 9
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.2
+              },
+              "origin": "USA",
+              "year": "2019"
             },
             {
               "name": "Cascade",
@@ -83,7 +89,13 @@
               "amount": {
                 "unit": "g",
                 "value": 20
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.7
+              },
+              "origin": "USA",
+              "year": "2019"
             }
           ],
           "culture_additions": [

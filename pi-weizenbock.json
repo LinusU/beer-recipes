@@ -79,7 +79,9 @@
               "alpha_acid": {
                 "unit": "%",
                 "value": 10.7
-              }
+              },
+              "origin": "Germany",
+              "year": "2019"
             }
           ],
           "culture_additions": [

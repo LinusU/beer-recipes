@@ -74,7 +74,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.0
+              },
+              "origin": "England",
+              "year": "2019"
             }
           ],
           "culture_additions": [

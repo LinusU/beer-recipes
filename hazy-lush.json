@@ -160,7 +160,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Citra",
@@ -175,7 +181,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.8
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Mosaic",
@@ -190,7 +202,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
             },
             {
               "name": "Azacca",
@@ -205,7 +223,13 @@
               "amount": {
                 "unit": "g",
                 "value": 50
-              }
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.9
+              },
+              "origin": "USA",
+              "year": "2020"
             }
           ],
           "miscellaneous_additions": [
