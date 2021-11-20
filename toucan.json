@@ -12,11 +12,11 @@
           "value": 15.6
         },
         "style": {
-          "name": "Irish Stout",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 15,
           "style_letter": "B",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "Irish Stout"
         },
         "original_gravity": {
           "unit": "sg",

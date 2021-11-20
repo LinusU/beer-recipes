@@ -12,8 +12,11 @@
           "value": 10
         },
         "style": {
-          "name": "Double IPA",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 22,
+          "style_letter": "A",
+          "name": "Double IPA"
         },
         "original_gravity": {
           "unit": "sg",

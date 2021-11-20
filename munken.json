@@ -12,8 +12,11 @@
           "value": 16.5
         },
         "style": {
-          "name": "Trappist Ale",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 26,
+          "style_letter": "A",
+          "name": "Trappist Single"
         },
         "original_gravity": {
           "unit": "sg",

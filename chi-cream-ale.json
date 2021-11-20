@@ -12,8 +12,11 @@
           "value": 17.1
         },
         "style": {
-          "name": "Cream Ale",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 1,
+          "style_letter": "C",
+          "name": "Cream Ale"
         },
         "original_gravity": {
           "unit": "sg",

@@ -12,8 +12,11 @@
           "value": 20
         },
         "style": {
-          "name": "IPA",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 12,
+          "style_letter": "C",
+          "name": "English IPA"
         },
         "original_gravity": {
           "unit": "sg",

@@ -12,8 +12,11 @@
           "value": 18
         },
         "style": {
-          "name": "IPA",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "A",
+          "name": "American IPA"
         },
         "original_gravity": {
           "unit": "sg",

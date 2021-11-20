@@ -12,11 +12,11 @@
           "value": 17.1
         },
         "style": {
-          "name": "Weizenbock",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 10,
           "style_letter": "C",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "Weizenbock"
         },
         "original_gravity": {
           "unit": "sg",

@@ -12,8 +12,11 @@
           "value": 16.9
         },
         "style": {
-          "name": "ESB",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 11,
+          "style_letter": "C",
+          "name": "Strong Bitter"
         },
         "original_gravity": {
           "unit": "sg",

@@ -12,8 +12,11 @@
           "value": 6
         },
         "style": {
-          "name": "Porter",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 13,
+          "style_letter": "C",
+          "name": "English Porter"
         },
         "notes": "Inspiration: Stigbergets Promenadporter recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
         "ingredients": {

@@ -12,11 +12,11 @@
           "value": 16.6
         },
         "style": {
-          "name": "Belgian Blond Ale",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 25,
           "style_letter": "A",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "Belgian Blond Ale"
         },
         "original_gravity": {
           "unit": "sg",

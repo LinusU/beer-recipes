@@ -12,8 +12,11 @@
           "value": 20
         },
         "style": {
-          "name": "Weissbier",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 10,
+          "style_letter": "A",
+          "name": "Weissbier"
         },
         "original_gravity": {
           "unit": "sg",

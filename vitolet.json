@@ -12,8 +12,11 @@
           "value": 18.9
         },
         "style": {
-          "name": "Witbier",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 24,
+          "style_letter": "A",
+          "name": "Witbier"
         },
         "original_gravity": {
           "unit": "sg",

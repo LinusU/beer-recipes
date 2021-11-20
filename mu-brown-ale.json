@@ -12,8 +12,11 @@
           "value": 20
         },
         "style": {
-          "name": "Brown Ale",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 13,
+          "style_letter": "B",
+          "name": "British Brown Ale"
         },
         "original_gravity": {
           "unit": "sg",

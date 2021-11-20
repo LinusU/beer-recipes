@@ -12,8 +12,11 @@
           "value": 16.9
         },
         "style": {
-          "name": "Imperial Stout",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 20,
+          "style_letter": "C",
+          "name": "Imperial Stout"
         },
         "original_gravity": {
           "unit": "sg",

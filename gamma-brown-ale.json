@@ -12,8 +12,11 @@
           "value": 4
         },
         "style": {
-          "name": "American Brown Ale",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 19,
+          "style_letter": "C",
+          "name": "American Brown Ale"
         },
         "original_gravity": {
           "unit": "sg",

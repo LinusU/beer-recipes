@@ -12,8 +12,11 @@
           "value": 17.6
         },
         "style": {
-          "name": "Pale Ale",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 18,
+          "style_letter": "B",
+          "name": "American Pale Ale"
         },
         "original_gravity": {
           "unit": "sg",

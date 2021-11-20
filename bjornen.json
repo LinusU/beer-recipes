@@ -12,11 +12,11 @@
           "value": 17.8
         },
         "style": {
-          "name": "Saison",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 25,
           "style_letter": "B",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "Saison"
         },
         "original_gravity": {
           "unit": "sg",

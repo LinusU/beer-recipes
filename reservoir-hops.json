@@ -12,11 +12,11 @@
           "value": 18
         },
         "style": {
-          "name": "American Pale Ale",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 18,
           "style_letter": "B",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "American Pale Ale"
         },
         "original_gravity": {
           "unit": "sg",

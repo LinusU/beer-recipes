@@ -12,8 +12,11 @@
           "value": 10
         },
         "style": {
-          "name": "Sour IPA",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 28,
+          "style_letter": "B",
+          "name": "Mixed-Fermentation Sour Beer"
         },
         "original_gravity": {
           "unit": "sg",

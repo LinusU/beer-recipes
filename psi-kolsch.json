@@ -12,8 +12,11 @@
           "value": 15.9
         },
         "style": {
-          "name": "Kölsch",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 5,
+          "style_letter": "B",
+          "name": "Kölsch"
         },
         "original_gravity": {
           "unit": "sg",

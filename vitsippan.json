@@ -12,11 +12,11 @@
           "value": 17.1
         },
         "style": {
-          "name": "Specialty IPA: White IPA",
+          "style_guide": "BJCP 2015",
+          "type": "beer",
           "category_number": 21,
           "style_letter": "B",
-          "style_guide": "BJCP 2015",
-          "type": "beer"
+          "name": "Specialty IPA: White IPA"
         },
         "original_gravity": {
           "unit": "sg",

@@ -12,8 +12,11 @@
           "value": 7.5
         },
         "style": {
-          "name": "Bitter",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 11,
+          "style_letter": "A",
+          "name": "Ordinary Bitter"
         },
         "original_gravity": {
           "unit": "sg",

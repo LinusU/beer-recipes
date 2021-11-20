@@ -12,8 +12,11 @@
           "value": 18.4
         },
         "style": {
-          "name": "Bière de Garde",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 24,
+          "style_letter": "C",
+          "name": "Bière de Garde"
         },
         "original_gravity": {
           "unit": "sg",

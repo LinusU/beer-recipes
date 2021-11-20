@@ -12,8 +12,10 @@
           "value": 17.3
         },
         "style": {
-          "name": "Roggenbier",
-          "type": "beer"
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 27,
+          "name": "Historical Beer: Roggenbier"
         },
         "original_gravity": {
           "unit": "sg",
