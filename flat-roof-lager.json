@@ -1,0 +1,183 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Flat Roof Lager",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-11-25",
+        "batch_size": {
+          "unit": "l",
+          "value": 17
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 3,
+          "style_letter": "B",
+          "name": "Czech Premium Pale Lager"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.050
+        },
+        "notes": "Mash pH låg på ~5.2, lite lägre än vad jag tänkt mig borde nog ha haft lite mindre syramalt. Fermenterar denna i en keg inuti kylen med stigröret kapat ~25mm.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5100
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carapils",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Acidulated Malt",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Saaz",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 37.1
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.1
+              },
+              "origin": "Czech",
+              "year": "2020"
+            },
+            {
+              "name": "Perle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 26.2
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.6
+              },
+              "origin": "Germany",
+              "year": "2019"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Saflager W-34/70",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "lager",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 10
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
