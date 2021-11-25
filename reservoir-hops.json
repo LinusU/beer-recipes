@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.1
+          }
+        },
         "ingredients": {
           "fermentable_additions": [
             {
@@ -132,19 +143,15 @@
               "name": "Amarillo",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
-                  "unit": "day",
-                  "value": 7
+                  "unit": "week",
+                  "value": 4
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
-                "value": 60
+                "value": 60.1
               },
               "alpha_acid": {
                 "unit": "%",
@@ -157,19 +164,15 @@
               "name": "Chinook",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
-                  "unit": "day",
-                  "value": 7
+                  "unit": "week",
+                  "value": 4
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
-                "value": 60
+                "value": 17.2
               },
               "alpha_acid": {
                 "unit": "%",
@@ -179,18 +182,35 @@
               "year": "2019"
             },
             {
+              "name": "Chinook",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "week",
+                  "value": 4
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 43.2
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.8
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
               "name": "Mosaic",
               "form": "pellet",
               "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 2
-                },
                 "duration": {
-                  "unit": "day",
-                  "value": 7
+                  "unit": "week",
+                  "value": 4
                 },
-                "use": "add_to_fermentation"
+                "use": "add_to_package"
               },
               "amount": {
                 "unit": "g",
@@ -198,7 +218,7 @@
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 11
+                "value": 11.1
               },
               "origin": "USA",
               "year": "2020"
