@@ -1,0 +1,274 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Tropical Stout",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-11-27",
+        "batch_size": {
+          "unit": "l",
+          "value": 18
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 16,
+          "style_letter": "C",
+          "name": "Tropical Stout"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.051
+        },
+        "notes": "Inspiration: https://www.youtube.com/watch?v=q6KPj1EqaJU",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5500
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Caraaroma",
+              "amount": {
+                "unit": "g",
+                "value": 450
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caramünch 1",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Special B",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Dingemans"
+            },
+            {
+              "name": "Carafa Special 3",
+              "amount": {
+                "unit": "g",
+                "value": 250
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Roasted Barley",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Target",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.2
+              },
+              "origin": "England",
+              "year": "2020"
+            },
+            {
+              "name": "Motueka",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14.9
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.2
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.5
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.4
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Motueka",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.9
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.2
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.4
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.4
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Saflager W-34/70",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "lager",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
