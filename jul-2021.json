@@ -22,7 +22,7 @@
           "unit": "sg",
           "value": 1.052
         },
-        "notes": "Inspiration: https://www.greatlakesbrewing.com/christmas-ale samt https://www.brewersfriend.com/homebrew/recipe/view/298173/gl-christmas-ale-clone\n\nVatten justerades med 2 gram kalciumkarbonat, 3 gram kalciumsulfat, samt 2 gram salt. Mäskens pH startade på 5.7 och justerades med 1 ml mjölksyra till 5.2 (ish?)\n\nTyckte vörten smakade väldigt gott, perfekt mängd kanel!",
+        "notes": "Inspiration: https://www.greatlakesbrewing.com/christmas-ale samt https://www.brewersfriend.com/homebrew/recipe/view/298173/gl-christmas-ale-clone\n\nMäskens pH startade på 5.7 och justerades med 1 ml mjölksyra till 5.2 (ish?)\n\nTyckte vörten smakade väldigt gott, perfekt mängd kanel!",
         "ingredients": {
           "fermentable_additions": [
             {
@@ -190,6 +190,66 @@
                 "value": 30
               },
               "type": "spice"
+            },
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              },
+              "type": "water agent"
             }
           ],
           "culture_additions": [
@@ -201,6 +261,35 @@
               "amount": {
                 "unit": "g",
                 "value": 11.5
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
               }
             }
           ]
