@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.022
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 19.1
+          }
+        },
         "notes": "Inspiration: Ölen Klunk ifrån Omaka",
         "ingredients": {
           "fermentable_additions": [
