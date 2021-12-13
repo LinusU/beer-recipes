@@ -22,6 +22,10 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
         "notes": "Mash pH låg på ~5.2, lite lägre än vad jag tänkt mig borde nog ha haft lite mindre syramalt. Fermenterar denna i en keg inuti kylen med stigröret kapat ~25mm.",
         "ingredients": {
           "fermentable_additions": [
