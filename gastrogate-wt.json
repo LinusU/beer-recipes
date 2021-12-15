@@ -1,0 +1,240 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Gastrogate WT",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-12-14",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.7
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 10,
+          "style_letter": "B",
+          "name": "Dunkles Weissbier"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.047
+        },
+        "notes": "Inspiration: https://www.youtube.com/watch?v=Grr5z43EcYo",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Wheat Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4000
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 850
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Vienna Malt",
+              "amount": {
+                "unit": "g",
+                "value": 850
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caramünch 1",
+              "amount": {
+                "unit": "g",
+                "value": 550
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carabohemian",
+              "amount": {
+                "unit": "g",
+                "value": 550
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carafa Special 3",
+              "amount": {
+                "unit": "g",
+                "value": 200
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Perle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.3
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.6
+              },
+              "origin": "Germany",
+              "year": "2019"
+            },
+            {
+              "name": "Saaz",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6.0
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.1
+              },
+              "origin": "Czech",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Bavarian Wheat M20",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Mangrove Jack's"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
