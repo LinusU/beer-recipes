@@ -22,6 +22,18 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.017
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.4
+          }
+        },
+        "package"
         "notes": "Inspiration: https://www.greatlakesbrewing.com/christmas-ale samt https://www.brewersfriend.com/homebrew/recipe/view/298173/gl-christmas-ale-clone\n\nMäskens pH startade på 5.7 och justerades med 1 ml mjölksyra till 5.2 (ish?)\n\nTyckte vörten smakade väldigt gott, perfekt mängd kanel!",
         "ingredients": {
           "fermentable_additions": [
