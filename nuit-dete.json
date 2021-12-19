@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.055
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.006
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.8
+          }
+        },
         "notes": "Inspiration: Saison recept ifrån The Homebrew Challenge https://www.youtube.com/watch?v=QB0CnXOf9U4",
         "ingredients": {
           "fermentable_additions": [

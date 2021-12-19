@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.017
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18
+          }
+        },
         "notes": "Inspiration: Witbier recept ifrån boken Brygg eget öl, ISBN 978-91-7985-250-4",
         "ingredients": {
           "fermentable_additions": [
