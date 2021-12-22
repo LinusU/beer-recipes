@@ -1,0 +1,250 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Strawberry Dreams",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-12-21",
+        "batch_size": {
+          "unit": "l",
+          "value": 11.5
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 23,
+          "style_letter": "A",
+          "name": "Berliner Weisse"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.046
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 10.8
+          }
+        },
+        "notes": "4 liter av vörten fick inte plats i kastrullen för surning och gick till annat.\n\nMätte upp pH 5.1 på vörten före surning. Hade i 2.5 ml lactic acid, och mätte ph 4.7.\n\nEfter kettle sour mättes pH till ca 3.8 kanske. Svårt att bedöma med pH-papper. Efter det hade vi i 2.5 ml mer lactic acid.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 2400
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Wheat Malt",
+              "amount": {
+                "unit": "g",
+                "value": 2000
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Acidulated Malt",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Flaked Oats",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "AXA"
+            },
+            {
+              "name": "Lactose",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "sugar"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Cascade",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "day",
+                  "value": 1
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 2.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 2.5
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "amount": {
+                "unit": "g",
+                "value": 7
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 15
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 10
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 30
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
