@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.047
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.1
+          }
+        },
         "notes": "Inspiration: https://www.youtube.com/watch?v=Grr5z43EcYo",
         "ingredients": {
           "fermentable_additions": [
