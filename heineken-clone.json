@@ -1,0 +1,234 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Heineken Clone",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-01-26",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.2
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 2,
+          "style_letter": "A",
+          "name": "International Pale Lager"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.052
+        },
+        "notes": "Inspiration: https://www.brewersfriend.com/homebrew/recipe/view/653323/heineken-lager-clone\n\nDet blev just över en liter vört för mycket, som inte fick plats i fatet jag skulle jäsa i, som fick slängas.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5600
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carapils",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Acidulated Malt",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Northern Brewer",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 90
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 16
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.4
+              },
+              "origin": "Germany",
+              "year": "2020"
+            },
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 90
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 16
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "origin": "Germany",
+              "year": "2020"
+            },
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4
+              },
+              "origin": "Germany",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Saflager S-23",
+              "amount": {
+                "unit": "g",
+                "value": 23
+              },
+              "type": "lager",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 90
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 12
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
