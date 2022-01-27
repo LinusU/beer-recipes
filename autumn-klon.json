@@ -1,0 +1,333 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Autumn Klon",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-01-27",
+        "batch_size": {
+          "unit": "l",
+          "value": 19.2
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 13,
+          "style_letter": "B",
+          "name": "British Brown Ale"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.052
+        },
+        "notes": "Inspiration: Brown Ale [Autumn] ifrån Smith Street Brew, recept på flaskan.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4700
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caramünch 3",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caraaroma",
+              "amount": {
+                "unit": "g",
+                "value": 700
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Crystal 240",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Columbus",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12.1
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.9
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Cascade",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.2
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Ekuanot",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.5
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.9
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3.9
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.7
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3.4
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20,
+                "free_rise": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
