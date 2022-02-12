@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.022
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18.5
+          }
+        },
         "notes": "Inspiration: Brown Ale [Autumn] ifrån Smith Street Brew, recept på flaskan.",
         "ingredients": {
           "fermentable_additions": [
