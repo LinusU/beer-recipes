@@ -6,7 +6,7 @@
         "name": "Oatmeal Stout",
         "type": "all grain",
         "author": "Linus Unnebäck",
-        "created": "2021-01-25",
+        "created": "2022-01-25",
         "batch_size": {
           "unit": "l",
           "value": 19

@@ -6,7 +6,7 @@
         "name": "Heineken Clone",
         "type": "all grain",
         "author": "Linus Unnebäck",
-        "created": "2021-01-26",
+        "created": "2022-01-26",
         "batch_size": {
           "unit": "l",
           "value": 18.2
