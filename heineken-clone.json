@@ -22,6 +22,10 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.026
+        },
         "notes": "Inspiration: https://www.brewersfriend.com/homebrew/recipe/view/653323/heineken-lager-clone\n\nDet blev just över en liter vört för mycket, som inte fick plats i fatet jag skulle jäsa i, som fick slängas.",
         "ingredients": {
           "fermentable_additions": [
