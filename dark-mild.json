@@ -1,0 +1,288 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Dark Mild",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2021-02-14",
+        "batch_size": {
+          "unit": "l",
+          "value": 21.1
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 13,
+          "style_letter": "A",
+          "name": "Dark Mild"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.046
+        },
+        "notes": "Inspiration: English Dark Mild - https://www.brewersfriend.com/homebrew/recipe/view/466574/english-dark-mild\n\nThe mash heating element of the Brewie failed during this batch, so it mashed cooler and longer than it should have.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4000
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Crystal 150",
+              "amount": {
+                "unit": "g",
+                "value": 650
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Chocolate Malt",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.4
+              },
+              "origin": "England",
+              "year": "2020"
+            },
+            {
+              "name": "East Kent Golding",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6
+              },
+              "origin": "England",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.6
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 7
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 0.8
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
