@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.053
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 19.0
+          }
+        },
         "notes": "Inspiration: https://www.youtube.com/watch?v=31WeQF-jnNs\n\nBrewien hade problem under bryggingen, mash och sparge vattnet blev blandat och tiderna för mash och boil stämmer inte helt.",
         "ingredients": {
           "fermentable_additions": [
