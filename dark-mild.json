@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.046
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18.9
+          }
+        },
         "notes": "Inspiration: English Dark Mild - https://www.brewersfriend.com/homebrew/recipe/view/466574/english-dark-mild\n\nThe mash heating element of the Brewie failed during this batch, so it mashed cooler and longer than it should have.",
         "ingredients": {
           "fermentable_additions": [
