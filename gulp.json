@@ -3,7 +3,7 @@
     "version": 1,
     "recipes": [
       {
-        "name": "Klunk Clone",
+        "name": "Gulp",
         "type": "all grain",
         "author": "Linus Unnebäck",
         "created": "2021-11-28",
