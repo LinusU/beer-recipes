@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.042
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.7
+          }
+        },
         "notes": "Inspiration: New England IPA (w/Cloudwater) från DIY DOG 2019.",
         "ingredients": {
           "fermentable_additions": [
@@ -107,7 +118,7 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 80
+                "value": 83
               },
               "form": "pellet",
               "alpha_acid": {
