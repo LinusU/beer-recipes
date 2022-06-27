@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.060
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.029
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18.3
+          }
+        },
         "notes": "Inspiration: Left Hand Milk Stout ifrån https://www.homebrewersassociation.org/homebrew-recipe/left-hand-milk-stout-clone/",
         "ingredients": {
           "fermentable_additions": [
