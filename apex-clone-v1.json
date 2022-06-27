@@ -1,0 +1,351 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Apex Clone v1",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2022-06-22",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.6
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "B",
+          "name": "Specialty IPA: New England IPA"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.052
+        },
+        "notes": "Inspiration: https://untappd.com/b/apex-brewing-company-ne-mosaic-and-simcoe-ipa/2822994",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Carapils",
+              "amount": {
+                "unit": "g",
+                "value": 750
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Flaked Oats",
+              "amount": {
+                "unit": "g",
+                "value": 750
+              },
+              "type": "grain",
+              "producer": "AXA"
+            },
+            {
+              "name": "Torrefied Wheat",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 18
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.9
+              },
+              "origin": "Germany",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.4
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Mosaic",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.1
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Simcoe",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 13.4
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Mosaic",
+              "timing": {
+                "duration": {
+                  "unit": "week",
+                  "value": 4
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Simcoe",
+              "timing": {
+                "duration": {
+                  "unit": "week",
+                  "value": 4
+                },
+                "use": "add_to_package"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "London Fog WLP066",
+              "amount": {
+                "unit": "ml",
+                "value": 40
+              },
+              "type": "ale",
+              "form": "liquid",
+              "producer": "White Labs"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 21
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
