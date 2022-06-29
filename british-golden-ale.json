@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.053
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.3
+          }
+        },
         "notes": "Inspiration: Fool's Gold - https://www.brewersfriend.com/homebrew/recipe/view/423176/fool-s-gold",
         "ingredients": {
           "fermentable_additions": [
