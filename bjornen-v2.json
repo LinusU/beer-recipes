@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.055
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.008
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.3
+          }
+        },
         "notes": "Inspiration: Sorbus Hallon recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1\n\nRåkade vara lite sen med att stoppa i humlen så tog lite extra. Igentligen var det tänkt 16g i 60 minuter.",
         "ingredients": {
           "fermentable_additions": [
