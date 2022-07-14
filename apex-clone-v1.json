@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.8
+          }
+        },
         "notes": "Inspiration: https://untappd.com/b/apex-brewing-company-ne-mosaic-and-simcoe-ipa/2822994",
         "ingredients": {
           "fermentable_additions": [
@@ -163,10 +174,12 @@
               "form": "pellet",
               "alpha_acid": {
                 "unit": "%",
-                "value": 11
+                "value": 11.4
               },
               "origin": "USA",
-              "year": "2020"
+              "year": "2021",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUMOS1161"
             },
             {
               "name": "Simcoe",
@@ -187,7 +200,9 @@
                 "value": 12.8
               },
               "origin": "USA",
-              "year": "2020"
+              "year": "2021",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUSIM1214"
             }
           ],
           "miscellaneous_additions": [
