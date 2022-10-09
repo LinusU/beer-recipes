@@ -30,6 +30,7 @@
     1. Slowly purge the pressure from the keg by pulling the pressure release valve
     1. Connect the beer line to the keg
     1. Open the pressure release valve on the keg
+    1. Remove the airlock from the carboy
     1. Open the tap
     1. When the beer surface is nearly level with the tap, carefully tilt the carboy a bit forward
     1. Keep the tap open, and carboy tilted, as long as clear beer is flowing
