@@ -39,3 +39,24 @@
     1. Disconnect the beer line from the keg
     1. Add CO₂ to the keg, just over 3 bars
     1. Note down weight of full keg
+
+## Cleanup
+
+1. Prepare a bucket of PBW
+    1. Fill the large bucket with ~15L warm water
+    1. Add 3 tbsp of PBW
+1. Connect the red soft tubing to the T connection on the bucket blaster
+1. Place the bucket blaster in the bucket of PBW
+1. Connect the red soft tubing to the tap on the carboy
+1. Open the tap
+1. Connect the bucket blaster to a wall outlet
+1. Wait 30 minutes
+1. Disconnect the bucket blaster from the wall outlet
+1. Lift up the bucket blaster, with the carboy
+1. Pour out the PBW
+1. Fill bucket with water
+1. Place the bucket blaster in the bucket of water
+1. Connect the bucket blaster to a wall outlet
+1. Wait 30 minutes
+1. Disconnect the bucket blaster from the wall outlet
+1. Everything is now clean, and can be put away
