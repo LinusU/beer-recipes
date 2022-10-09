@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.045
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.5
+          }
+        },
         "notes": "Inspiration: https://untappd.com/b/apex-brewing-company-acme-ipa/3563883\n\nRacked onto yeast cake from Apex Clone v1",
         "ingredients": {
           "fermentable_additions": [
