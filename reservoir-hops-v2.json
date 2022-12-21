@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.055
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18
+          }
+        },
         "ingredients": {
           "fermentable_additions": [
             {
@@ -140,7 +151,7 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 60
+                "value": 57.4
               },
               "alpha_acid": {
                 "unit": "%",
@@ -161,17 +172,17 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 20
+                "value": 59.1
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 11.2
+                "value": 12.5
               },
               "origin": "USA",
-              "year": "2019"
+              "year": "2021"
             },
             {
-              "name": "Chinook",
+              "name": "Mosaic",
               "form": "pellet",
               "timing": {
                 "duration": {
@@ -182,11 +193,11 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 40
+                "value": 22
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 11.8
+                "value": 11.1
               },
               "origin": "USA",
               "year": "2020"
@@ -203,14 +214,14 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 60
+                "value": 37.9
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 11.1
+                "value": 11.4
               },
               "origin": "USA",
-              "year": "2020"
+              "year": "2021"
             }
           ],
           "miscellaneous_additions": [
