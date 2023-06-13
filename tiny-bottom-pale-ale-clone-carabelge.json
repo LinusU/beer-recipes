@@ -1,0 +1,363 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Tiny Bottom Pale Ale Clone - Carabelge",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2023-05-29",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.3
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 18,
+          "style_letter": "B",
+          "name": "American Pale Ale"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.046
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17
+          }
+        },
+        "notes": "Inspiration: https://brulosophy.com/recipes/tiny-bottom-pale-ale/",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 3900
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carabelge",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Vienna Malt",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Melanoidinmalt",
+              "amount": {
+                "unit": "g",
+                "value": 250
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Crystal 150",
+              "amount": {
+                "unit": "g",
+                "value": 150
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 13
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.5
+              },
+              "origin": "Germany",
+              "year": "2021"
+            },
+            {
+              "name": "Perle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 25
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.2
+              },
+              "origin": "Germany",
+              "year": "2021"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.6
+              },
+              "origin": "England",
+              "year": "2021"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.6
+              },
+              "origin": "England",
+              "year": "2021"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 4
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Gelatin Powder",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 9
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 1
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "tsp",
+                "value": 1
+              },
+              "type": "fining"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 19
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
