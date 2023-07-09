@@ -1,0 +1,439 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Hazy Lush - Centennial",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2023-06-07",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.5
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "B",
+          "name": "Specialty IPA: New England IPA"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.060
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.016
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 15.6
+          }
+        },
+        "notes": "Inspiration: Boss Tweed Clone recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/706797/boss-tweed-clone-ne-dipa-\n\nEn av de bästa jag bryggde till Richard's bröllop!",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4600
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              }
+            },
+            {
+              "name": "Flaked Oats",
+              "type": "grain",
+              "producer": "AXA",
+              "amount": {
+                "unit": "g",
+                "value": 960
+              }
+            },
+            {
+              "name": "Vienna Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 440
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.5
+              },
+              "origin": "Germany",
+              "year": "2021"
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Centennial",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.1
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 35
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.1
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 5
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 15
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Citra",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 5
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 15
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.4
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Mosaic",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 5
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 15
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.1
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Centennial",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 5
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 15
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.1
+              },
+              "origin": "USA",
+              "year": "2021"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 4
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Gelatin Powder",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 19
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 1
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "tsp",
+                "value": 1
+              },
+              "type": "fining"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-33",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
