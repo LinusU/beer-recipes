@@ -1,0 +1,437 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Apex Conflicting Ideas",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2023-10-01",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.1
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "B",
+          "name": "Specialty IPA: New England IPA"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.057
+        },
+        "notes": "Apex Conflicting Ideas brew kit from Craft Co",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Extra Pale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Naked Oat",
+              "amount": {
+                "unit": "g",
+                "value": 720
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Flaked Oats",
+              "amount": {
+                "unit": "g",
+                "value": 720
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Flaked Wheat",
+              "amount": {
+                "unit": "g",
+                "value": 360
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Wheat Malt",
+              "amount": {
+                "unit": "g",
+                "value": 360
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Caster sugar",
+              "amount": {
+                "unit": "g",
+                "value": 450
+              },
+              "type": "sugar",
+              "producer": "Dansukker",
+              "timing": {
+                "use": "add_to_boil"
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Amarillo Lupulinator",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Amarillo Lupulinator",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil",
+                "step": 2
+              },
+              "amount": {
+                "unit": "g",
+                "value": 40
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Amarillo",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 8
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Callista Lupulinator",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 8
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Hallertau Blanc Lupulinator",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 8
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Tango",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 8
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Amarillo",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 10
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 70
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Callista Lupulinator",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 10
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Hallertau Blanc Lupulinator",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 10
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            },
+            {
+              "name": "Tango",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 10
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "form": "pellet",
+              "origin": "Germany"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6.2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3.1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 3
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Fermoale New-E",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "AEB"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 68
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 78
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          },
+          "boil_steps": [
+            {
+              "name": "boil",
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "name": "whirlpool",
+              "start_temperature": {
+                "unit": "C",
+                "value": 85
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 30
+              }
+            }
+          ]
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 19
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
