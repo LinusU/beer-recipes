@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.040
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.6
+          }
+        },
         "notes": "Inspiration: https://brulosophy.com/2020/06/25/short-shoddy-strong-bitter/",
         "ingredients": {
           "fermentable_additions": [
