@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.057
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 15.7
+          }
+        },
         "notes": "Apex Conflicting Ideas brew kit from Craft Co",
         "ingredients": {
           "fermentable_additions": [
@@ -119,11 +130,15 @@
                   "unit": "day",
                   "value": 8
                 },
+                "duration": {
+                  "unit": "day",
+                  "value": 8
+                },
                 "use": "add_to_fermentation"
               },
               "amount": {
                 "unit": "g",
-                "value": 25
+                "value": 95
               },
               "form": "pellet",
               "origin": "Germany"
@@ -135,11 +150,15 @@
                   "unit": "day",
                   "value": 8
                 },
+                "duration": {
+                  "unit": "day",
+                  "value": 8
+                },
                 "use": "add_to_fermentation"
               },
               "amount": {
                 "unit": "g",
-                "value": 25
+                "value": 50
               },
               "form": "pellet",
               "origin": "Germany"
@@ -151,11 +170,15 @@
                   "unit": "day",
                   "value": 8
                 },
+                "duration": {
+                  "unit": "day",
+                  "value": 8
+                },
                 "use": "add_to_fermentation"
               },
               "amount": {
                 "unit": "g",
-                "value": 25
+                "value": 50
               },
               "form": "pellet",
               "origin": "Germany"
@@ -167,75 +190,15 @@
                   "unit": "day",
                   "value": 8
                 },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 25
-              },
-              "form": "pellet",
-              "origin": "Germany"
-            },
-            {
-              "name": "Amarillo",
-              "timing": {
-                "time": {
+                "duration": {
                   "unit": "day",
-                  "value": 10
+                  "value": 8
                 },
                 "use": "add_to_fermentation"
               },
               "amount": {
                 "unit": "g",
-                "value": 70
-              },
-              "form": "pellet",
-              "origin": "Germany"
-            },
-            {
-              "name": "Callista Lupulinator",
-              "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 10
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 25
-              },
-              "form": "pellet",
-              "origin": "Germany"
-            },
-            {
-              "name": "Hallertau Blanc Lupulinator",
-              "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 10
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 25
-              },
-              "form": "pellet",
-              "origin": "Germany"
-            },
-            {
-              "name": "Tango",
-              "timing": {
-                "time": {
-                  "unit": "day",
-                  "value": 10
-                },
-                "use": "add_to_fermentation"
-              },
-              "amount": {
-                "unit": "g",
-                "value": 25
+                "value": 50
               },
               "form": "pellet",
               "origin": "Germany"
