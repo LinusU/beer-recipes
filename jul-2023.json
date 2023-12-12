@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.055
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.4
+          }
+        },
         "notes": "Inspiration: https://www.greatlakesbrewing.com/christmas-ale samt https://www.brewersfriend.com/homebrew/recipe/view/298173/gl-christmas-ale-clone",
         "ingredients": {
           "fermentable_additions": [
