@@ -22,7 +22,18 @@
           "unit": "sg",
           "value": 1.053
         },
-        "notes": "Inspiration: a conversation with ChatGPT after drinking a Strawberry Gose from Canard Brewing co.",
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.3
+          }
+        },
+        "notes": "Inspiration: a conversation with ChatGPT after drinking a Strawberry Gose from Canard Brewing co.\n\nAdded the strawberries a bit early which and the beer overflowed whilst fermented. I think that a lot of the strawberries ended up on the floor.",
         "ingredients": {
           "fermentable_additions": [
             {
