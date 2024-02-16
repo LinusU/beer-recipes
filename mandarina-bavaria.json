@@ -1,0 +1,275 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Mandarina Bavaria",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2024-01-02",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.1
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 11,
+          "style_letter": "B",
+          "name": "Best Bitter"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.047
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.011
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.3
+          }
+        },
+        "notes": "Inspiration: https://brulosophy.com/recipes/hop-test-bitter/",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4200
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Caramünch 3",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Melanoidinmalt",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caraaroma",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Mandarina Bavaria",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8.3
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.8
+              },
+              "origin": "Germany",
+              "year": "2022"
+            },
+            {
+              "name": "Willamette",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.1
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.6
+              },
+              "origin": "USA",
+              "year": "2022"
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 16.2
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.8
+              },
+              "origin": "Germany",
+              "year": "2022"
+            },
+            {
+              "name": "Mandarina Bavaria",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 28.9
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 8.8
+              },
+              "origin": "Germany",
+              "year": "2022"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 18
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
