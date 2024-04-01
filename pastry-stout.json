@@ -1,0 +1,319 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Pastry Stout",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2024-04-01",
+        "batch_size": {
+          "unit": "l",
+          "value": 16.3
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 20,
+          "style_letter": "C",
+          "name": "Imperial Stout"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.112
+        },
+        "notes": "Inspiration: https://bisonbrew.com/how-to-brew-dessert-stout/",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4000
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Munic 1 Malt",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Flaked Oats",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              },
+              "type": "grain",
+              "producer": "Ica"
+            },
+            {
+              "name": "Carabohemian",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carafa Special 1",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carawheat",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Chocolate Malt",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Roasted Barley",
+              "amount": {
+                "unit": "g",
+                "value": 165
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Bread Syrup",
+              "amount": {
+                "unit": "g",
+                "value": 2250
+              },
+              "type": "sugar",
+              "producer": "Dansukker"
+            },
+            {
+              "name": "Lactose",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "sugar"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 120
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 41
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.5
+              },
+              "origin": "Germany",
+              "year": "2021"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 7
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Cinnamon Stick",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 1
+              },
+              "type": "spice"
+            },
+            {
+              "name": "Vanilla pod",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "week",
+                  "value": 2
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 5
+              },
+              "type": "spice"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 70
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 20
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 120
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
