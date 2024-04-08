@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Flat Roof Brewing</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+      html {
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+
+      .page {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 210mm;
+        height: 297mm;
+      }
+
+      .label {
+        width: 70mm;
+        height: 74.25mm;
+        display: flex;
+        flex-direction: column;
+        padding: 3mm;
+      }
+
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+
+      .name {
+        display: flex;
+        flex-grow: 1;
+        font-size: 36pt;
+        padding-bottom: 3mm;
+      }
+
+      .name input {
+        text-align: center;
+        width: 100%;
+      }
+
+      .abv,
+      .style {
+        display: flex;
+        align-items: center;
+        font-size: 8pt;
+      }
+
+      .abv input,
+      .style input {
+        font-family: 'Caveat';
+        font-size: 14pt;
+        margin-left: 0.5ch;
+      }
+
+      input {
+        border: none;
+        background-image: none;
+        background-color: transparent;
+        box-shadow: none;
+        font-family: inherit;
+        font-size: inherit;
+        margin: 0;
+        padding: 0;
+      }
+
+      @media screen {
+        .label {
+          outline: 1px solid red;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="page">
+      <div class="label">
+        <img class="logo" src="file:///Users/linus/Downloads/flat-roof-brewing%202.svg" />
+        <div class="name"><input placeholder="Name" value="Name" /></div>
+        <div class="style">Style:<input placeholder="style" value="Style" /></div>
+        <div class="abv">ABV:<input placeholder="abv" value="X,X%" /></div>
+      </div>
+    </div>
+
+    <script>
+      const page = document.querySelector('.page')
+      const label = document.querySelector('.label')
+
+      for (let i = 1; i < 12; i++) {
+        page.appendChild(label.cloneNode(true))
+      }
+
+      const labels = document.querySelectorAll('.label')
+
+      for (const label of labels) {
+        label.querySelector('.name input').addEventListener('input', (ev) => {
+          let foo = false
+          for (const other of document.querySelectorAll('.name input')) {
+            if (foo) other.value = ev.target.value
+            if (other === ev.target) foo = true
+          }
+        })
+
+        label.querySelector('.style input').addEventListener('input', (ev) => {
+          let foo = false
+          for (const other of document.querySelectorAll('.style input')) {
+            if (foo) other.value = ev.target.value
+            if (other === ev.target) foo = true
+          }
+        })
+
+        label.querySelector('.abv input').addEventListener('input', (ev) => {
+          let foo = false
+          for (const other of document.querySelectorAll('.abv input')) {
+            if (foo) other.value = ev.target.value
+            if (other === ev.target) foo = true
+          }
+        })
+      }
+    </script>
+  </body>
+</html>
