@@ -1,0 +1,297 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Oatmeal Stout v2",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2024-02-16",
+        "batch_size": {
+          "unit": "l",
+          "value": 18
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 16,
+          "style_letter": "B",
+          "name": "Oatmeal Stout"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.055
+        },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.017
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.2
+          },
+          "notes": "2024-03-25"
+        },
+        "notes": "",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Flaked Oats",
+              "amount": {
+                "unit": "g",
+                "value": 750
+              },
+              "type": "grain",
+              "producer": "AXA"
+            },
+            {
+              "name": "Chocolate Malt",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Roasted Barley",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "East Kent Golding",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 13.3
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6
+              },
+              "origin": "England",
+              "year": "2020"
+            },
+            {
+              "name": "East Kent Golding",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6.7
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "England",
+              "year": "2021"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.6
+              },
+              "origin": "England",
+              "year": "2021"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 9.3
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.6
+              },
+              "origin": "England",
+              "year": "2021"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 11.8
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.2
+              },
+              "origin": "England",
+              "year": "2022"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
