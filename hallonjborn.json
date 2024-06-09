@@ -1,0 +1,256 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Hallonbjörn",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2024-06-08",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.8
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 25,
+          "style_letter": "B",
+          "name": "Saison"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.058
+        },
+        "notes": "Inspiration: Sorbus Hallon recept ifrån boken Klona Öl, ISBN 978-91-88397-04-1",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 5000
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 650
+              }
+            },
+            {
+              "name": "Vienna Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              }
+            },
+            {
+              "name": "Raspberries",
+              "type": "fruit",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 500
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Columbus",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.3
+              },
+              "origin": "Germany",
+              "year": "2021"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 4
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale BE-134",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 75
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 25
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
