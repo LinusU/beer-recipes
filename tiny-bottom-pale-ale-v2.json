@@ -38,7 +38,7 @@
         "ingredients": {
           "fermentable_additions": [
             {
-              "name": "Maris Otter",
+              "name": "Maris Otter Ale Malt",
               "amount": {
                 "unit": "g",
                 "value": 3900
