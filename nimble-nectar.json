@@ -22,6 +22,18 @@
           "unit": "sg",
           "value": 1.054
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 18.3
+          },
+          "notes": "2024-06-18"
+        },
         "notes": "Inspiration: https://brulosophy.com/2023/07/27/short-shoddy-english-ipa/",
         "ingredients": {
           "fermentable_additions": [
