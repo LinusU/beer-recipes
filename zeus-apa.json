@@ -22,6 +22,18 @@
           "unit": "sg",
           "value": 1.052
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.6
+          },
+          "notes": "2024-06-18"
+        },
         "notes": "Inspiration: https://aussiehomebrewer.com/threads/tomahawk-columbus-pale-ale.68350/ and https://brulosophy.com/2020/01/02/the-hop-chronicles-ctz-2018/",
         "ingredients": {
           "fermentable_additions": [
