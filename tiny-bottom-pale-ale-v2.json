@@ -22,6 +22,18 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.3
+          },
+          "notes": "2024-06-18"
+        },
         "notes": "Inspiration: https://brulosophy.com/recipes/tiny-bottom-pale-ale/",
         "ingredients": {
           "fermentable_additions": [
