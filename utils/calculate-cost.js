@@ -50,6 +50,7 @@ const prices = new Map([
   ['Blackberries', 16.95 / 250],
   ['Passion fruit purée', 25.95 / 250],
   ['Pineapple puree', 15.95 / 250],
+  ['Frozen Raspberries', 19.95 / 250],
   ['Frozen Strawberries', 32.95 / 1000],
 
   ['Amarillo', 69 / 100],
