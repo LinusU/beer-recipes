@@ -1,0 +1,418 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Leftover NEIPA",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2024-10-02",
+        "batch_size": {
+          "unit": "l",
+          "value": 19.6
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "B",
+          "name": "Specialty IPA: New England IPA"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.040
+        },
+        "notes": "Inspiration: https://brulosophy.com/2019/07/25/short-shoddy-new-england-ipa/",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Flaked Torrefied Oats",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Wheat Malt",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 20
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.0
+              },
+              "origin": "Germany",
+              "year": "2023"
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 21.8
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.1
+              },
+              "origin": "USA",
+              "year": "2022"
+            },
+            {
+              "name": "Motueka",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20.7
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.2
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "form": "pellet",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUCIT1062",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.4
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Amarillo",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 14
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.1
+              },
+              "origin": "USA",
+              "year": "2022"
+            },
+            {
+              "name": "Motueka",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 14
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 33
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 7.2
+              },
+              "origin": "New Zealand",
+              "year": "2020"
+            },
+            {
+              "name": "Citra",
+              "form": "pellet",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUCIT1062",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 14
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 21.8
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.4
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Mosiac",
+              "form": "pellet",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUMOS1054",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 14
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 31.5
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 11.1
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Simcoe",
+              "form": "pellet",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P92-GUSIM1214",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 2
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 14
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 20.1
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12.8
+              },
+              "origin": "USA",
+              "year": "2021"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 4
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-33",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 40
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 20
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 22
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
