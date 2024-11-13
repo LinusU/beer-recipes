@@ -22,6 +22,10 @@
           "unit": "sg",
           "value": 1.056
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
         "notes": "Inspiration: Boss Tweed Clone recept ifrån https://www.brewersfriend.com/homebrew/recipe/view/706797/boss-tweed-clone-ne-dipa-",
         "ingredients": {
           "fermentable_additions": [
