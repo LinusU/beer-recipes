@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.040
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.0
+          }
+        },
         "notes": "Inspiration: https://brulosophy.com/2019/07/25/short-shoddy-new-england-ipa/",
         "ingredients": {
           "fermentable_additions": [
@@ -218,7 +229,7 @@
               "year": "2021"
             },
             {
-              "name": "Mosiac",
+              "name": "Mosaic",
               "form": "pellet",
               "producer": "Yakima Chief Hops",
               "product_id": "P92-GUMOS1054",
