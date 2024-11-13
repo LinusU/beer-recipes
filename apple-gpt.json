@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.015
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 15.3
+          }
+        },
         "notes": "The apples was picked freshly from our neighbour, and then cut into pieces and in the oven until inner temperature was ~80°C.",
         "ingredients": {
           "fermentable_additions": [
