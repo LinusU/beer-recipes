@@ -1,0 +1,336 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Leftover Altbier",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-05-03",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.6
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 7,
+          "style_letter": "B",
+          "name": "Altbier"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.047
+        },
+        "notes": "Inspiration: ChatGPT and what was left in my many opened malt bags",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "producer": "Warbro Kvarn",
+              "amount": {
+                "unit": "g",
+                "value": 3180
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Munic 1 Malt",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 570
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Carabohemian",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 330
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Vienna Malt",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 290
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Melanoidin Malt",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 130
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Carahell",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 120
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Chocolate Malt",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 120
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Carapils",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 110
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Brown Malt",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              },
+              "type": "grain"
+            },
+            {
+              "name": "Carabelge",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 50
+              },
+              "type": "grain"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Tettnanger",
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              },
+              "origin": "Germany",
+              "year": "2019"
+            },
+            {
+              "name": "Tettnanger",
+              "amount": {
+                "unit": "g",
+                "value": 16.7
+              },
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.7
+              },
+              "origin": "Germany",
+              "year": "2019"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 0.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
