@@ -10,6 +10,7 @@ const prices = new Map([
   ['Caraaroma', 34 / 1000],
   ['Carabelge', 38 / 1000],
   ['Carabohemian', 38 / 1000],
+  ['Carafa Special 1', 35 / 1000],
   ['Carafa Special 3', 35 / 1000],
   ['Carahell', 32 / 1000],
   ['Caramünch 1', 30 / 1000],
@@ -22,7 +23,7 @@ const prices = new Map([
   ['Crystal 240', 34 / 1000],
   ['Extra Pale Malt', 29 / 1000],
   ['Flaked Barley', 32 / 1000],
-  ['Flaked Torrefied Oats', 479 / 25000],
+  ['Flaked Torrefied Oats', 29 / 1000],
   ['Golden Promise Malt', 36 / 1000],
   ['Maris Otter Ale Malt', 499 / 25000],
   ['Melanoidinmalt', 29 / 1000],
@@ -116,6 +117,7 @@ const prices = new Map([
   ['Chalk (CaCO₃)', 109 / 1000],
   ['Lactic Acid 80%', 79 / 250],
 
+  ['Apples', 0.00000000001],
   ['Cinnamon Stick', 12 / 4],
   ['Ginger', 51 / 1000],
   ['Star anise', 16 / 25],
@@ -125,6 +127,7 @@ const prices = new Map([
   ['Gelatin Sheet', 11 / 10],
   ['Gelatin Powder', 20 / 100],
   ['Sea Salt', 10 / 1000],
+  ['Vanilla pod', 30],
 ])
 
 function calculateCost (input, summary) {
