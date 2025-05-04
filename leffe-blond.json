@@ -28,7 +28,7 @@
             {
               "name": "Pilsner Malt",
               "type": "grain",
-              "producer": "Warbro",
+              "producer": "Warbro Kvarn",
               "amount": {
                 "unit": "g",
                 "value": 4300
