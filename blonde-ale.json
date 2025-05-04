@@ -6,7 +6,7 @@
         "name": "Blonde Ale",
         "type": "all grain",
         "author": "Linus Unnebäck",
-        "created": "2021-06-11",
+        "created": "2022-06-11",
         "batch_size": {
           "unit": "l",
           "value": 18.2
