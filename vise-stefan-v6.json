@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.046
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.012
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 16.6
+          }
+        },
         "notes": "Inspiration: https://sillysir.com/recipe-weihenstephaner-hefeweissbier/",
         "ingredients": {
           "fermentable_additions": [
