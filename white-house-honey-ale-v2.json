@@ -1,0 +1,303 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "White House Honey Ale v2",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-07-15",
+        "batch_size": {
+          "unit": "l",
+          "value": 19.4
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 18,
+          "style_letter": "B",
+          "name": "American Pale Ale"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.060
+        },
+        "notes": "Inspiration: https://obamawhitehouse.archives.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5200
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Caramünch 1",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Biscuit Malt",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Dingemans"
+            },
+            {
+              "name": "Blomsterhonung",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              },
+              "type": "honey",
+              "producer": "Lune de Miel"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Styrian Golding Bobek",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 35
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.8
+              },
+              "origin": "Slovenia",
+              "year": "2020"
+            },
+            {
+              "name": "Styrian Golding Bobek",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.8
+              },
+              "origin": "Slovenia",
+              "year": "2020"
+            },
+            {
+              "name": "East Kent Golding",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 13
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "England",
+              "year": "2021"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.6
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2.9
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
