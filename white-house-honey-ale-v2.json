@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.060
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.010
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.8
+          }
+        },
         "notes": "Inspiration: https://obamawhitehouse.archives.gov/blog/2012/09/01/ale-chief-white-house-beer-recipe",
         "ingredients": {
           "fermentable_additions": [
