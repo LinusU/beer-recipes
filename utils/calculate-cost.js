@@ -199,10 +199,10 @@ function calculateCost (input, summary) {
 
   if (summary) {
     if (packaging?.packaged_volume == null) {
-      console.log(`${name.padEnd(30, ' ')} ${totalCost.toFixed(2).padStart(10, ' ')} kr`)
+      console.log(`${name.padEnd(48, ' ')} ${totalCost.toFixed(2).padStart(10, ' ')} kr`)
     } else {
       assert(packaging.packaged_volume.unit === 'l', 'Can only handle litres')
-      console.log(`${name.padEnd(30, ' ')} ${totalCost.toFixed(2).padStart(10, ' ')} kr ${packaging.packaged_volume.value.toFixed(1).padStart(10, ' ')} l ${(totalCost / packaging.packaged_volume.value).toFixed(2).padStart(10, ' ')} kr/l`)
+      console.log(`${name.padEnd(48, ' ')} ${totalCost.toFixed(2).padStart(10, ' ')} kr ${packaging.packaged_volume.value.toFixed(1).padStart(10, ' ')} l ${(totalCost / packaging.packaged_volume.value).toFixed(2).padStart(10, ' ')} kr/l`)
     }
   } else {
     if (packaging?.packaged_volume == null) {
