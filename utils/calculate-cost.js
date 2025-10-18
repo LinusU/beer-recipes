@@ -220,5 +220,9 @@ function calculateCost (input, summary) {
 }
 
 for (const fileName of process.argv.slice(2)) {
-  calculateCost(JSON.parse(fs.readFileSync(fileName).toString()), true)
+  try {
+    calculateCost(JSON.parse(fs.readFileSync(fileName).toString()), true)
+  } catch (error) {
+    console.error(`Error in ${fileName}: ${error.message}`)
+  }
 }
