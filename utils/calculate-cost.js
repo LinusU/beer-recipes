@@ -27,7 +27,7 @@ const prices = new Map([
   ['Flaked Wheat', 54 / 1000],
   ['Golden Promise Malt', 36 / 1000],
   ['Maris Otter Ale Malt', 499 / 25000],
-  ['Melanoidinmalt', 29 / 1000],
+  ['Melanoidin Malt', 29 / 1000],
   ['Munic 1 Malt', 25 / 1000],
   ['Munic 2 Malt', 25 / 1000],
   ['Naked Oat Malt', 39 / 1000],
