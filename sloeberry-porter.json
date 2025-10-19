@@ -1,0 +1,298 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Sloeberry Porter",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-10-19",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.3
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 12,
+          "style_letter": "A",
+          "name": "Brown Porter"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.044
+        },
+        "notes": "A rich, dark porter with the tart and slightly astringent character of sloeberries. The fruit adds complexity and a unique twist to this traditional style.\n\nRecipe by Cursor AI",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "amount": {
+                "unit": "g",
+                "value": 5500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Chocolate Malt",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Carafa Special 3",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Crystal 150",
+              "amount": {
+                "unit": "g",
+                "value": 600
+              },
+              "type": "grain",
+              "producer": "Crisp"
+            },
+            {
+              "name": "Sloeberries",
+              "amount": {
+                "unit": "g",
+                "value": 800
+              },
+              "timing": {
+                "duration": {
+                  "unit": "days",
+                  "value": 3
+                },
+                "use": "add_to_fermentation"
+              },
+              "type": "fruit",
+              "producer": "Wild harvested"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "East Kent Golding",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 26.4
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.8
+              },
+              "origin": "England",
+              "year": "2023"
+            },
+            {
+              "name": "Fuggle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.7
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.3
+              },
+              "origin": "England",
+              "year": "2023"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Chalk (CaCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-04",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 22
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
