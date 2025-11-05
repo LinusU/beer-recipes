@@ -1,0 +1,314 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Norrlands Guld Clone",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-11-02",
+        "batch_size": {
+          "unit": "l",
+          "value": 17
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 5,
+          "style_letter": "C",
+          "name": "Helles Exportbier"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.050
+        },
+        "notes": "Recipe by ChatGPT and Claude Sonnet 4.5",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "amount": {
+                "unit": "g",
+                "value": 6500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 14
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "origin": "Germany",
+              "year": "2023"
+            },
+            {
+              "name": "Perle",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.8
+              },
+              "origin": "Germany",
+              "year": "2023"
+            },
+            {
+              "name": "Tettnanger",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 2
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.8
+              },
+              "origin": "Germany",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 4
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Saflager W-34/70",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "lager",
+              "form": "dry",
+              "producer": "Fermentis",
+              "attenuation": {
+                "unit": "%",
+                "value": 83
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 64
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 78
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "name": "Primary fermentation",
+              "start_temperature": {
+                "unit": "C",
+                "value": 10
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 7
+              },
+              "description": "Pitch yeast at 10°C (48-53°F). Hold at 10-13°C until approximately 50% attenuation reached (SG ~1.028), typically 4-7 days. Follow Brülosophy lager method."
+            },
+            {
+              "name": "Diacetyl rest / cleanup",
+              "start_temperature": {
+                "unit": "C",
+                "value": 10
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 19
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 3
+              },
+              "description": "Ramp temperature gradually by 2-3°C every 12 hours from 10°C to 18-20°C. Hold at peak temperature for 1-2 days to complete fermentation and allow yeast to clean up diacetyl. Target FG ~1.008."
+            },
+            {
+              "name": "Cold crash",
+              "start_temperature": {
+                "unit": "C",
+                "value": 19
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 0
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 2
+              },
+              "description": "Lower temperature gradually by 3-4°C every 12 hours from 19°C down to 0°C."
+            },
+            {
+              "name": "Lagering",
+              "start_temperature": {
+                "unit": "C",
+                "value": 0
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 14
+              },
+              "description": "Hold at 0 to -1°C for 2-4 weeks for maturation and clarification. Minimum 3-5 days before packaging."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
