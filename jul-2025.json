@@ -1,0 +1,437 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Jul 2025",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-11-12",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.6
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 30,
+          "style_letter": "C",
+          "name": "Winter Seasonal Beer"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.051
+        },
+        "notes": "Recipe by ChatGPT.\n\nRich, spiced Christmas ale with juniper, cinnamon, orange peel, clove, cardamom and star anise. Belgian-inspired with T-58 yeast for a fruity, spicy finish.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Maris Otter Ale Malt",
+              "producer": "Crisp",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 3050
+              }
+            },
+            {
+              "name": "Pale Ale Malt",
+              "producer": "Weyermann",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 450
+              }
+            },
+            {
+              "name": "Munich I Malt",
+              "producer": "Weyermann",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 1000
+              }
+            },
+            {
+              "name": "Special B",
+              "producer": "Weyermann",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              }
+            },
+            {
+              "name": "CaraAroma",
+              "producer": "Weyermann",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              }
+            },
+            {
+              "name": "Melanoidin Malt",
+              "producer": "Weyermann",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              }
+            },
+            {
+              "name": "Chocolate Malt",
+              "producer": "Crisp",
+              "type": "grain",
+              "amount": {
+                "unit": "g",
+                "value": 150
+              }
+            },
+            {
+              "name": "Brown Sugar",
+              "type": "sugar",
+              "amount": {
+                "unit": "g",
+                "value": 350
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Northern Brewer",
+              "form": "pellet",
+              "amount": {
+                "unit": "g",
+                "value": 40
+              },
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "Germany",
+              "year": "2020"
+            },
+            {
+              "name": "Cascade",
+              "form": "pellet",
+              "amount": {
+                "unit": "g",
+                "value": 6
+              },
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 5.5
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              }
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              }
+            },
+            {
+              "name": "Baking Soda (NaHCO₃)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              }
+            },
+            {
+              "name": "Epsom Salt (MgSO₄)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              }
+            },
+            {
+              "name": "Canning Salt (NaCl)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              }
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Crushed Juniper Berries",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5
+              }
+            },
+            {
+              "name": "Cinnamon Stick",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 1
+              }
+            },
+            {
+              "name": "Dried Orange Peel",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 6
+              }
+            },
+            {
+              "name": "Whole Cloves",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 2
+              }
+            },
+            {
+              "name": "Cardamom Pods (cracked)",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 3
+              }
+            },
+            {
+              "name": "Star anise",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 8
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "unit",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale T-58",
+              "producer": "Fermentis",
+              "type": "ale",
+              "form": "dry",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 21
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
