@@ -1,0 +1,369 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Hazy Session NEIPA",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2025-11-22",
+        "batch_size": {
+          "unit": "l",
+          "value": 17.9
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 21,
+          "style_letter": "B",
+          "name": "Specialty IPA: New England IPA"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.047
+        },
+        "notes": "A sessionable hazy New England IPA featuring Galaxy, Ekuanot, and Azacca hops for tropical, juicy character. Lower ABV (~4.5%) makes this perfect for a tasting where guests can enjoy multiple beers. Uses older hop inventory from 2020-2021.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 3000
+              }
+            },
+            {
+              "name": "Wheat Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 800
+              }
+            },
+            {
+              "name": "Torrefied Wheat",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 800
+              }
+            },
+            {
+              "name": "Carapils",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 400
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Columbus",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12.8
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14.3
+              },
+              "origin": "USA",
+              "year": "2021"
+            },
+            {
+              "name": "Galaxy",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 22.2
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 16.6
+              },
+              "origin": "Australia",
+              "year": "2020"
+            },
+            {
+              "name": "Ekuanot",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 21.1
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Azacca",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15.7
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.6
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Galaxy",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 6
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 48.6
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 16.6
+              },
+              "origin": "Australia",
+              "year": "2020"
+            },
+            {
+              "name": "Ekuanot",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 6
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 40.6
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 14
+              },
+              "origin": "USA",
+              "year": "2020"
+            },
+            {
+              "name": "Azacca",
+              "form": "pellet",
+              "timing": {
+                "time": {
+                  "unit": "day",
+                  "value": 6
+                },
+                "duration": {
+                  "unit": "day",
+                  "value": 7
+                },
+                "use": "add_to_fermentation"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 36.3
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 10.6
+              },
+              "origin": "USA",
+              "year": "2020"
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 4
+              },
+              "type": "water agent"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale US-05",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              },
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis"
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 66
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "start_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "free_rise": true
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
