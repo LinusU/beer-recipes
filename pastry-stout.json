@@ -22,6 +22,10 @@
           "unit": "sg",
           "value": 1.112
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.048
+        },
         "notes": "Inspiration: https://bisonbrew.com/how-to-brew-dessert-stout/",
         "ingredients": {
           "fermentable_additions": [
