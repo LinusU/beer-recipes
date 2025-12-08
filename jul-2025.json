@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.051
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.016
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.5
+          }
+        },
         "notes": "Recipe by ChatGPT.\n\nRich, spiced Christmas ale with juniper, cinnamon, orange peel, clove, cardamom and star anise. Belgian-inspired with T-58 yeast for a fruity, spicy finish.",
         "ingredients": {
           "fermentable_additions": [
