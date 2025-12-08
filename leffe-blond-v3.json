@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.058
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.020
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 17.1
+          }
+        },
         "notes": "Inspiration: Revvy's Belgian Blonde https://www.homebrewtalk.com/threads/revvys-belgian-blonde-leffe-clone.202852/\n\nThird iteration using T-58 yeast (as in v2) with Tettnanger and Saaz hops to utilize older hop inventory.",
         "ingredients": {
           "fermentable_additions": [
