@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.050
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.8
+          }
+        },
         "notes": "Recipe by ChatGPT and Claude Sonnet 4.5",
         "ingredients": {
           "fermentable_additions": [
