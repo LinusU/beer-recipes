@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.047
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.014
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.8
+          }
+        },
         "notes": "A sessionable hazy New England IPA featuring Galaxy, Ekuanot, and Azacca hops for tropical, juicy character. Lower ABV (~4.5%) makes this perfect for a tasting where guests can enjoy multiple beers. Uses older hop inventory from 2020-2021.",
         "ingredients": {
           "fermentable_additions": [
