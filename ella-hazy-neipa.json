@@ -22,6 +22,17 @@
           "unit": "sg",
           "value": 1.057
         },
+        "final_gravity": {
+          "unit": "sg",
+          "value": 1.016
+        },
+        "packaging": {
+          "name": "Cornelius keg",
+          "packaged_volume": {
+            "unit": "l",
+            "value": 14.8
+          }
+        },
         "notes": "Recipe by Claude Sonnet 4.5\n\nA hazy New England IPA showcasing Ella hops. Ella (half sister to Galaxy) provides distinctive tropical fruit aromas when used heavily in late boil and dry hop additions. Expect flavors of pineapple, passion fruit, and star anise. Inspired by Hazy Lush series.",
         "ingredients": {
           "fermentable_additions": [
