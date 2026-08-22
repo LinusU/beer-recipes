@@ -162,7 +162,7 @@ const cultures = {
   'Californian Lager M54': { type: 'lager', form: 'dry', producer: "Mangrove Jack's", price: 39 / 10, attenuation: 0.78 },
   'EC-1118': { type: 'champagne', form: 'dry', producer: 'Lalvin', price: 29 / 5, attenuation: 0.95 },
   'Fermoale New-E': { type: 'ale', form: 'dry', producer: 'AEB', price: 59 / 11, attenuation: 0.78 },
-  'London ESB': { type: 'ale', form: 'dry', producer: 'Lallemand', price: 59 / 11, attenuation: 0.75 },
+  'London ESB': { type: 'ale', form: 'dry', producer: 'Lallemand', price: 59 / 11, attenuation: 0.69 },
   'London Fog WLP066': { type: 'ale', form: 'liquid', producer: 'White Labs', price: 109 / 40, attenuation: 0.75 },
   'New England': { type: 'ale', form: 'dry', producer: 'Lallemand', price: 59 / 11, attenuation: 0.80 },
   'Safale BE-134': { type: 'ale', form: 'dry', producer: 'Fermentis', price: 49 / 11.5, attenuation: 0.92 },
