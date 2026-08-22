@@ -1,0 +1,287 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Märzen in Exile v3",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2026-08-21",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.5
+        },
+        "style": {
+          "style_guide": "BJCP 2015",
+          "type": "beer",
+          "category_number": 6,
+          "style_letter": "A",
+          "name": "Märzen"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.054
+        },
+        "notes": "Recipe by ChatGPT. Märzen-inspired amber pseudo-lager for an Oktoberfest party, built on Munich I and fermented at ambient temperature with M54. Measured fermenter wort mass: 19.45 kg. After final gravity is stable, package and cold-condition for 1-2 weeks if possible.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Munich I Malt",
+              "amount": {
+                "unit": "g",
+                "value": 4500
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Vienna Malt",
+              "amount": {
+                "unit": "g",
+                "value": 1185
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Caramünch 1",
+              "amount": {
+                "unit": "g",
+                "value": 300
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            },
+            {
+              "name": "Carafa Special 3",
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "type": "grain",
+              "producer": "Weyermann"
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Magnum",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 12
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 12
+              },
+              "origin": "Germany",
+              "year": "2023"
+            },
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 5.6
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.9
+              },
+              "origin": "Germany",
+              "year": "2024"
+            },
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 17.6
+              },
+              "form": "pellet",
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.4
+              },
+              "origin": "Germany",
+              "year": "2023"
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Californian Lager M54",
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "type": "lager",
+              "form": "dry",
+              "producer": "Mangrove Jack's",
+              "attenuation": {
+                "unit": "%",
+                "value": 80
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 16
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 13
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 78
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "name": "Ambient primary fermentation",
+              "start_temperature": {
+                "unit": "C",
+                "value": 18
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 14
+              },
+              "free_rise": true,
+              "description": "Sprinkle the sachet directly onto wort cooled to 18°C. Ferment in the coolest stable place available, ideally within 18-20°C, until final gravity is stable."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
