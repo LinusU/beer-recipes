@@ -122,6 +122,7 @@ const hops = {
   'Ekuanot': { price: 59 / 50, alpha: 14.0, origin: 'USA' },
   'El Dorado': { price: 59 / 100, alpha: 13.0, origin: 'USA' },
   'Ella': { price: 79 / 100, alpha: 15.0, origin: 'Australia' },
+  'First Gold': { price: 59 / 100, alpha: 8.2, origin: 'England' },
   'Fuggle': { price: 59 / 100, alpha: 4.5, origin: 'England' },
   'Galaxy': { price: 109 / 100, alpha: 15.0, origin: 'Australia' },
   'Hallertauer Mittelfrüh': { price: 59 / 100, alpha: 4.0, origin: 'Germany' },
