@@ -1,0 +1,298 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Gulp v2",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2026-08-23",
+        "batch_size": {
+          "unit": "l",
+          "value": 19.7
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.042
+        },
+        "style": {
+          "style_guide": "BJCP 2021",
+          "type": "beer",
+          "category_number": 11,
+          "style_letter": "B",
+          "name": "Best Bitter"
+        },
+        "notes": "A malt-forward successor to Gulp, brewed for Daniel on 2026-08-23 and still inspired by Omaka Klunk. Brew-day measurements were 20.55 kg of wort at 1.042 SG, equivalent to 19.7 l, with 638 g Aromatic Malt used. Expect approximately 1.012 FG and 4.0% ABV if Safale S-33 reaches 72% apparent attenuation; bitterness is estimated at 36 IBU and colour at 23 EBC. Safale S-33 and the aromatic and caramel-malt charge preserve the full, gently sweet character Daniel liked, while firmer bitterness keeps it drinkable. Aromatic and Carabohemian together are 16.8% of the grist (20.5% non-base malt when the torrefied wheat is included). Target substitutes for Klunk's First Gold, while Saaz, Bramling Cross and a restrained orange-peel addition preserve the original beer's spicy, citrus and dark-fruit identity. Hop weights use the on-hand lots: Target 2020 at 9.2% alpha acid, Saaz 2022 at 2.7%, and Bramling Cross 2020 at 6.5%. Inspiration: https://www.bjcp.org/style/2021/11/11B/best-bitter/, https://www.britishhops.org.uk/varieties/target/ and https://www.britishhops.org.uk/varieties/bramling-cross/\n\nFerment at 18°C and allow a gentle rise to 19°C, keeping S-33's fruitiness restrained. Package only after gravity is stable. Carbonate gently to approximately 1.8 volumes of CO₂ and serve at 10-12°C.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pale Ale Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4800
+              }
+            },
+            {
+              "name": "Aromatic Malt",
+              "type": "grain",
+              "producer": "Dingemans",
+              "amount": {
+                "unit": "g",
+                "value": 638
+              }
+            },
+            {
+              "name": "Carabohemian",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 375
+              }
+            },
+            {
+              "name": "Torrefied Wheat",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 225
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Target",
+              "form": "pellet",
+              "origin": "England",
+              "year": "2020",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 23
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 9.2
+              }
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "origin": "Czech",
+              "year": "2022",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 15
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.7
+              }
+            },
+            {
+              "name": "Bramling Cross",
+              "form": "pellet",
+              "origin": "England",
+              "year": "2020",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 10
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 25
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 6.5
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            },
+            {
+              "name": "Bitter orange peel",
+              "type": "spice",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 5
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 8
+              }
+            },
+            {
+              "name": "Gypsum (CaSO₄)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 4
+              }
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "type": "water agent",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 2
+              }
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale S-33",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 19
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 67
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 10
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "name": "Primary fermentation",
+              "start_temperature": {
+                "unit": "C",
+                "value": 18
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 20
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 10
+              },
+              "free_rise": true,
+              "description": "Pitch at 18°C and allow the beer to rise gently to 19°C. Hold until final gravity is stable before packaging."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
