@@ -54,6 +54,7 @@
             },
             {
               "name": "Frozen Strawberries",
+              "notes": "Pasteurized at 70°C for 15 minutes and added on 2026-08-24.",
               "amount": {
                 "unit": "g",
                 "value": 2000
@@ -61,7 +62,7 @@
               "timing": {
                 "duration": {
                   "unit": "days",
-                  "value": 1
+                  "value": 2
                 },
                 "use": "add_to_fermentation"
               },
