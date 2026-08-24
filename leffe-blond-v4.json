@@ -1,0 +1,316 @@
+{
+  "beerjson": {
+    "version": 1,
+    "recipes": [
+      {
+        "name": "Leffe Blond v4",
+        "type": "all grain",
+        "author": "Linus Unnebäck",
+        "created": "2026-08-23",
+        "batch_size": {
+          "unit": "l",
+          "value": 18.9
+        },
+        "style": {
+          "style_guide": "BJCP 2021",
+          "type": "beer",
+          "category_number": 25,
+          "style_letter": "A",
+          "name": "Belgian Blond Ale"
+        },
+        "original_gravity": {
+          "unit": "sg",
+          "value": 1.063
+        },
+        "notes": "Inspiration: Revvy's Belgian Blonde https://www.homebrewtalk.com/threads/revvys-belgian-blonde-leffe-clone.202852/\n\nTargets based on Belgian Leffe Blonde product data: OG 1.063 (15.5 °P), FG 1.013-1.014, 6.6% ABV, 21.5 IBU and 13 EBC. If brewhouse efficiency is higher than the repository's 48% planning assumption, dilute to the target OG before pitching.\n\nFourth iteration adds maize to reflect the commercial ingredient list and increases simple sugar for a drier finish. Retains T-58 for its spicy, clove-like fermentation character, but lowers the mash from 70°C to 65°C to address v3's high 1.020 FG. No spices are added: BJCP describes them as non-traditional, while Leffe's published ingredient list attributes the character to malt, maize, sugar and hops. Target about 3.0 volumes of CO₂ when packaging.",
+        "ingredients": {
+          "fermentable_additions": [
+            {
+              "name": "Pilsner Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 4800
+              }
+            },
+            {
+              "name": "Torrefied Maize",
+              "type": "grain",
+              "producer": "Crisp",
+              "amount": {
+                "unit": "g",
+                "value": 500
+              }
+            },
+            {
+              "name": "Munich I Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 450
+              }
+            },
+            {
+              "name": "Biscuit Malt",
+              "type": "grain",
+              "producer": "Dingemans",
+              "amount": {
+                "unit": "g",
+                "value": 150
+              }
+            },
+            {
+              "name": "Melanoidin Malt",
+              "type": "grain",
+              "producer": "Weyermann",
+              "amount": {
+                "unit": "g",
+                "value": 100
+              }
+            },
+            {
+              "name": "Caster sugar",
+              "type": "sugar",
+              "producer": "Dansukker",
+              "amount": {
+                "unit": "g",
+                "value": 650
+              }
+            }
+          ],
+          "hop_additions": [
+            {
+              "name": "Hallertauer Mittelfrüh",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 30
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 4.3
+              },
+              "origin": "Germany",
+              "year": "2025"
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 10
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 2.7
+              },
+              "origin": "Czech",
+              "year": "2022"
+            },
+            {
+              "name": "Saaz",
+              "form": "pellet",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 30
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 16
+              },
+              "alpha_acid": {
+                "unit": "%",
+                "value": 3.45
+              },
+              "origin": "Czech",
+              "year": "2024"
+            }
+          ],
+          "culture_additions": [
+            {
+              "name": "Safale T-58",
+              "type": "ale",
+              "form": "dry",
+              "producer": "Fermentis",
+              "amount": {
+                "unit": "g",
+                "value": 11.5
+              }
+            }
+          ],
+          "water_additions": [
+            {
+              "name": "Västerås water",
+              "calcium": {
+                "unit": "mg/l",
+                "value": 29
+              },
+              "magnesium": {
+                "unit": "mg/l",
+                "value": 4.6
+              },
+              "sulfate": {
+                "unit": "mg/l",
+                "value": 23
+              },
+              "sodium": {
+                "unit": "mg/l",
+                "value": 11
+              },
+              "chloride": {
+                "unit": "mg/l",
+                "value": 20
+              },
+              "bicarbonate": {
+                "unit": "mg/l",
+                "value": 76
+              }
+            }
+          ],
+          "miscellaneous_additions": [
+            {
+              "name": "Gypsum (CaSO₄)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Calcium Chloride (CaCl₂)",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "g",
+                "value": 1.5
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Lactic Acid 80%",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 60
+                },
+                "use": "add_to_mash"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 3
+              },
+              "type": "water agent"
+            },
+            {
+              "name": "Protafloc",
+              "type": "fining",
+              "timing": {
+                "duration": {
+                  "unit": "min",
+                  "value": 15
+                },
+                "use": "add_to_boil"
+              },
+              "amount": {
+                "unit": "ml",
+                "value": 1
+              }
+            }
+          ]
+        },
+        "mash": {
+          "mash_steps": [
+            {
+              "type": "infusion",
+              "amount": {
+                "unit": "l",
+                "value": 17
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 65
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 60
+              }
+            },
+            {
+              "type": "sparge",
+              "amount": {
+                "unit": "l",
+                "value": 12
+              },
+              "step_temperature": {
+                "unit": "C",
+                "value": 76
+              },
+              "step_time": {
+                "unit": "min",
+                "value": 15
+              }
+            }
+          ]
+        },
+        "boil": {
+          "boil_time": {
+            "unit": "min",
+            "value": 60
+          }
+        },
+        "fermentation": {
+          "fermentation_steps": [
+            {
+              "name": "Primary fermentation",
+              "start_temperature": {
+                "unit": "C",
+                "value": 18
+              },
+              "end_temperature": {
+                "unit": "C",
+                "value": 24
+              },
+              "step_time": {
+                "unit": "day",
+                "value": 10
+              },
+              "free_rise": true,
+              "description": "Pitch at 18°C, allow a gradual free rise to 24°C, then hold until gravity is stable. Fermentis recommends 18-26°C for T-58."
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
