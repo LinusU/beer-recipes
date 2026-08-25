@@ -155,7 +155,7 @@
               "timing": {
                 "time": {
                   "unit": "day",
-                  "value": 5
+                  "value": 3
                 },
                 "duration": {
                   "unit": "day",
@@ -169,18 +169,20 @@
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 13.2
+                "value": 14.6
               },
               "origin": "USA",
-              "year": "2022"
+              "year": "2025"
             },
             {
               "name": "Citra",
               "form": "pellet",
+              "producer": "Yakima Chief Hops",
+              "product_id": "P91-IUCIT8500",
               "timing": {
                 "time": {
                   "unit": "day",
-                  "value": 5
+                  "value": 3
                 },
                 "duration": {
                   "unit": "day",
@@ -190,14 +192,14 @@
               },
               "amount": {
                 "unit": "g",
-                "value": 50
+                "value": 52
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 12.4
+                "value": 11.8
               },
               "origin": "USA",
-              "year": "2021"
+              "year": "2023"
             },
             {
               "name": "Mosaic",
@@ -207,7 +209,7 @@
               "timing": {
                 "time": {
                   "unit": "day",
-                  "value": 5
+                  "value": 3
                 },
                 "duration": {
                   "unit": "day",
@@ -232,7 +234,7 @@
               "timing": {
                 "time": {
                   "unit": "day",
-                  "value": 5
+                  "value": 3
                 },
                 "duration": {
                   "unit": "day",
@@ -246,10 +248,10 @@
               },
               "alpha_acid": {
                 "unit": "%",
-                "value": 10.1
+                "value": 10.4
               },
               "origin": "USA",
-              "year": "2021"
+              "year": "2025"
             }
           ],
           "water_additions": [
